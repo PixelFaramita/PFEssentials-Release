@@ -776,3 +776,58 @@ Notice.Forms.EditContentAfterSubmitActionDeleteLine=Delete a line
 Notice.Forms.EditContentAfterSubmitActionUndo=Undo this change
 Notice.Forms.EditContentFormTitle=Edit the announcement content
 Notice.Forms.EditContentSaved=Announcement content has been saved
+
+
+Lands.Commands.Tips.PermFuncEnabled=Set the {1} function of the territory {0} {2}
+Lands.Commands.Tips.SetLandTpPosSuccess=Successfully set the teleport point of the territory {0} (x = {1:F1}, y = {2:F1}, z = {3:F1})
+Lands.Commands.Tips.GotoLandTpSuccess=Go to the territory{0}(x={1:F1},y={2:F1},z={3:F1})
+Lands.Common.Forms.ManageLandMainTeleport=Territory teleport
+Lands.Common.Forms.ManageTpConfirmGoT=Confirm to the territory
+Lands.Common.Forms.ManageTpConfirmGoC=Confirm to the territory\n  位于： {0} {{{1},{2},{3}}},{{{4},{5},{6}}}\n  name： {7}  message： {8}
+Lands.Common.Forms.ManageTpConfirmGoConfirm=Confirm to teleport
+Lands.Common.Forms.ManageTpConfirmGoBack=Back
+Lands.Common.Forms.ManageTpConfirmSetT=Confirm setting teleport point
+Lands.Common.Forms.ManageTpConfirmSetC=Confirm that the set teleport point is\n  x={9:F2}\n  y={10:F2}\n  z={11:F2}\n  lie in： {0} {{{1},{2},{3}}},{{{4},{5},{6}}}\n  name： {7}  message： {8}
+Lands.Common.Forms.ManageTpConfirmSetConfirm=Confirm setting teleport point
+Lands.Common.Forms.ManageTpConfirmSetBack=Back
+Lands.Common.Forms.ManageTpNotSetT=The territory has not yet set the teleport point
+Lands.Common.Forms.ManageTpNotSetC=The territory has not yet set the teleport point\n  lie in： {0} {{{1},{2},{3}}},{{{4},{5},{6}}}\n  name： {7}  message： {8}
+Lands.Common.Forms.ManageTpNotSetClose=Close
+Lands.Common.Forms.ManageTpNotSetBack=Back
+Lands.Common.Forms.ManageTpNotInLandT=Unable to set the teleport point
+Lands.Common.Forms.ManageTpNotInLandC=Not in the territory, you can't set the teleport point\n  lie in： {0} {{{1},{2},{3}}},{{{4},{5},{6}}}\n  name： {7}  message： {8}
+Lands.Common.Forms.ManageTpNotInLandClose=Close
+Lands.Common.Forms.ManageTpNotInLandBack=Back
+Lands.Common.Forms.ManageLandTeleportTitle=Territory transfer main menu
+Lands.Common.Forms.ManageLandTeleportContent=Select the territory information：\n  lie in： {0} {{{1},{2},{3}}},{{{4},{5},{6}}}\n  name： {7}  message： {8}\nSelect operation：
+Lands.Common.Forms.ManageLandTeleportGo=Go to the territory
+Lands.Common.Forms.ManageLandTeleportSet=Set an anchor for teleporting
+Lands.Common.Forms.ManageLandTeleportHasBeenDisabledT=The territory teleport function has been disabled
+Lands.Common.Forms.ManageLandTeleportHasBeenDisabledC=The territory teleport function has been disabled by the administrator
+Lands.Common.Forms.ManageLandTeleportHasBeenDisabledBack=Back
+Lands.Common.Forms.ManageLandTeleportHasBeenDisabledClose=Close
+Lands.Common.Tips.Permissions.FirstTipDecoration=§c{0}
+Lands.Common.Tips.Permissions.ForwardTipDecoration=§7{0}
+Lands.Common.Tips.Permissions.NoPermMobContainerInteracted=No permissions to open the entity container without permission in the territory of {0} ({1})
+
+Lands.Common.Tips.Permissions.NoPermArrowHit=No permissions in the territory of {0} ({1}) shooting arrow
+Lands.Common.Tips.Permissions.NoPermProjectileKnockback=No permissions in the territory of {0} ({1}) using an impact to destroy
+Lands.Common.Tips.Permissions.NoPermFishingHookRetrieve=No permissions in the territory of {0} ({1}) using fishing hook to evoke objects
+Lands.Common.Tips.Permissions.NoPermThrowSplashPotion=No permissions in the territory of {0} ({1}) throwing SplashPotion
+Lands.Common.Tips.Permissions.NoPermOnSpawnAoECloud=No permissions in the territory of {0} ({1}) spawning AoECloud
+Lands.Common.Tips.Permissions.BlockFallIntoTip=The territory of {0} ({1}) is prohibited from blocks falling into
+Lands.Common.Tips.Permissions.GrowTreeTip=The outer circumference of {0} ({1}) can only grow the tree of half
+Lands.Common.Tips.Permissions.BlockFallInto=Prevent blocks falling into
+Menu.Forms.NoPermissionUseButtonTitle=No permission
+Menu.Forms.NoPermissionUseButtonContent=No permission to use this button
+Menu.Forms.NoPermissionUseButtonBack=Return the forward menu
+Menu.Forms.NoPermissionUseButtonClose=Close
+Menu.Forms.NoPermissionOpenMenuTitle=No permission
+Menu.Forms.NoPermissionOpenMenuContent=No permissions open this menu
+Menu.Forms.NoPermissionOpenMenuBack=Return the forward menu
+Menu.Forms.NoPermissionOpenMenuClose=Close
+Menu.Forms.FormMissMatchTitle=Unknown menu
+Menu.Forms.FormMissMatchContent=Could not found menu {0} in configuration file 
+Menu.Forms.FormMissMatchBack=Return the forward menu
+Menu.Forms.FormMissMatchClose=Close
+Menu.Command.NoPermissionOpenMenu=No permissions open this menu
