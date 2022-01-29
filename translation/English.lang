@@ -5,9 +5,9 @@ Main.LangVersion=v0.0.3
 Main.LangHelper=https://www.minebbs.com/resources/1716/
 General.Console.ProcessorCountTip1=It is detected that there is only one core processor (CPU) in the operating environment (CPU)
 General.Console.ProcessorCountTip2=The plugin is intensive due to multi-threaded use, it is recommended to run in the multi-core server to get a better experience.
-General.Common.Dimension.Overworld=Main world
-General.Common.Dimension.Nether=hell
-General.Common.Dimension.TheEnd=Last place
+General.Common.Dimension.Overworld=Overworld
+General.Common.Dimension.Nether=Nether
+General.Common.Dimension.TheEnd=TheEnd
 General.Common.ServerClosed=Server is closed
 General.Common.Reload1=The plugin configuration file is overloaded successfully
 General.Common.Reload2=Some features may need to be restarted to take effect
@@ -303,7 +303,7 @@ Tpa.Forms.TpaCheckAvaliableFailedT3Closed=Operation has been canceled
 Tpa.Forms.TpaCheckAvaliableFailedUrged=Has urged {3}to handle the current transfer request as soon as possible ({1}=> {2})
 Tpa.Forms.TpaCheckAvaliableFailedUrgedTo={0}Remunction, please handle the current transfer request ({1}=> {2}) as soon as possible, TA wants to send a transfer request to {3}
 Tpr.Commands.Description.Main=§r§eRandom Transfer
-Tpr.DimensionNotAllowed=The current dimension cannot be executed, the TPR function is only available in the main world!
+Tpr.DimensionNotAllowed=The current dimension cannot be executed, the TPR function is only available in the Overworld!
 Tpr.NotAllowed=Execution failed, please try again later!
 Tpr.TprCompleted=Quickly transferred to the coordinate (x = {0:F1}, z = {1:F1}) successfully!
 Tpr.InCooldown=The current cooling time is currently transmitted, please try again after {0}
@@ -311,7 +311,6 @@ Tpr.Completed=Random transfer is successful!
 Tpr.LoadingChunk=§ablock load!
 Tpr.FindingBlock=§aLooking for squares!
 LanguageSetting.Console.LanguageLoaded=Language file read success {0}, failed {1}
-LanguageSetting.Console.LanguageLoadedTip=Complete file is {0}
 LanguageSetting.Console.LanguageLoadFailed=Language file reading error: {0}
 LanguageSetting.Console.LangPreferenceCreated=Create language settings >>> {0}
 LanguageSetting.Console.LangPreferenceReaded=Read language settings <<< {0}
