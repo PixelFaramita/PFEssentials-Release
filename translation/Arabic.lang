@@ -43,7 +43,7 @@ General.BedrockLog.IPv4Port=منفذ الخادم (IPv4): {0}
 General.BedrockLog.IPv6Port=منفذ الخادم (IPv6): {0}
 Home.Console.DataCreated=إنشاء بيانات المنزل >>> {0}
 Home.Console.DataLoaded=قراءة البيانات المنزلية >>> {0}
-Home.Operation.AddSuccess=إضافة النجاح، اسم المنزل {0}، dimension {1}، تنسيق {3}{3}{4}
+Home.Operation.AddSuccess=إضافة النجاح، اسم المنزل {0}، dimension {1}، تنسيق {3},{3},{4}
 Home.Operation.AddFailedAlreadyExists=إضافة فشل، المنزل ({0}) موجود بالفعل
 Home.Operation.InvalidName=اسم المنزل غير صالح
 Home.Operation.ReachedLimit=وصل رقم المنزل إلى الحد الأعلى
@@ -66,7 +66,7 @@ Home.Commands.AddActionsCountUnmatched=القيادة /home add <home: string>ل
 Home.Commands.DelResult=الإعدام: {0}
 Home.Commands.DelActionsCountUnmatched=القيادة /home del <home: string>لا يوجد {0}للزفر
 Home.Commands.GoHomeFindFailed=لم تجد المنزل ({0})
-Home.Commands.GoHomeTeleported=نقل إلى المنزل {0}{0}النجاح ({1}- {2}، {3}، {4})
+Home.Commands.GoHomeTeleported=نقل إلى المنزل {0},{0}النجاح ({1}- {2}، {3}، {4})
 Home.Commands.GoHomeActionsCountUnmatched=القيادة /home go <home: string>لا يوجد {0}للزفر
 Home.Common.MainMenuTitle=الصفحة الرئيسية القائمة الرئيسية
 Home.Common.MainMenuContent=حدد العملية
@@ -75,7 +75,7 @@ Home.Common.MainMenuAdd=إضافة الصفحة الرئيسية
 Home.Common.MainMenuDel=حذف الصفحة الرئيسية
 Home.Common.GotoMenuTitle=اذهب إلى المنزل
 Home.Common.GotoMenuContent=انقر لتحديد الصفحة الرئيسية التي تريد السفر إليها
-Home.Common.GotoMenuItem={0}\nالبعد: إحداثيات {1}: {2}{3}{4}
+Home.Common.GotoMenuItem={0}\nالبعد: إحداثيات {1}: {2},{3},{4}
 Home.Common.GotoSuccess=نقل إلى المنزل "{0}"النجاح
 Home.Common.AddFailedFullTitle=المنزل ممتلئ
 Home.Common.AddFailedFullContent=وصل عدد المنازل إلى الحد الأعلى\nالرجاء حذف الصفحة الرئيسية غير المرغوب فيها وإضافتها مرة أخرى
@@ -91,7 +91,7 @@ Home.Common.AddResultFormBack=العودة إلى القائمة الرئيسي�
 Home.Common.AddResultFormClose=إنهاء
 Home.Common.DelFormTitle=حذف الصفحة الرئيسية
 Home.Common.DelFormDropdownTip=حدد Home Delete.
-Home.Common.DelFormDropdownItem={0}\nإحداثيات {1}البعد{2}{3}{4}
+Home.Common.DelFormDropdownItem={0}\nإحداثيات {1}البعد{2},{3},{4}
 Home.Common.DelFormBottomLabel=انقر فوق "لتقديم "لإزالة المنزل
 Home.Common.DelResultFormTitle=حذف النتائج
 Home.Common.DelResultFormContent={0}
@@ -110,7 +110,7 @@ Home.Common.CostMoneyFailed=العملة ليست كافية، لديك فقط {
 Home.Common.CostMoneyCanceled=تم إلغاء عملية إنشاء المنزل
 Warp.Console.DataCreated=إنشاء بيانات الاعوجاج >>> {0}
 Warp.Console.DataLoaded=قراءة بيانات الاعوجاج >>> {0}
-Warp.Operation.AddSuccess=أضف النجاح، الاسم الاعوجاج {0}، dimension {1}، تنسيق {2}{3}{4}
+Warp.Operation.AddSuccess=أضف النجاح، الاسم الاعوجاج {0}، dimension {1}، تنسيق {2},{3},{4}
 Warp.Operation.AddFailedAlreadyExists=إضافة فشل، الاعوجاج ({0}) موجود بالفعل
 Warp.Operation.AddFailedNoPermission=إضافة فشل، لا أذونات
 Warp.Operation.InvalidName=اسم الاعوجاج غير صالح
@@ -119,8 +119,8 @@ Warp.Operation.DelFailedNotExists=فشل حذف، الاعوجاج ({0}) غير 
 Warp.Operation.DelFailedNoPermission=فشل حذف، لا أذونات
 Warp.Operation.GetPermissionFailed=فشلت معلومات امتياز اللاعب
 Warp.Operation.GoToFailedNotExist=فشل الانتقال إلى الاعوجاج، ونقطة النقل {0}غير موجود
-Warp.Operation.GoToFailedTpErr=فشل الذهاب إلى الاعوجاج في إرسال إلى Warp ({1}{1}{2}، {3}، {4})
-Warp.Operation.GoToSuccess=نقل إلى Warp ({0}) ({1}{2}، {3}، {4})
+Warp.Operation.GoToFailedTpErr=فشل الذهاب إلى الاعوجاج في إرسال إلى Warp ({1},{1},{2}، {3}، {4})
+Warp.Operation.GoToSuccess=نقل إلى Warp ({0}) ({1},{2}، {3}، {4})
 Warp.Operation.DelSelectedNothing=لا عنصر
 Warp.Operation.InCooldown=حاليا وقت التبريد في الوقت الحالي، يرجى المحاولة مرة أخرى بعد {0}
 Warp.Commands.Description.go=§r§7<name: string>§eاذهب إلى الاعوجاج
@@ -146,8 +146,8 @@ Warp.Common.MainMenuAdd=أضف الاعوجاج
 Warp.Common.MainMenuDel=حذف الاعوجاج
 Warp.Common.GotoMenuTitle=اذهب إلى الاعوجاج
 Warp.Common.GotoMenuContent=انقر لتحديد Warp الذي تريد الذهاب إليه
-Warp.Common.GotoMenuItem={0}\nالبعد: إحداثيات {1}: {2}{3}{4}
-Warp.Common.GotoSuccess=نقل إلى الاعوجاج {0}{0}"النجاح
+Warp.Common.GotoMenuItem={0}\nالبعد: إحداثيات {1}: {2},{3},{4}
+Warp.Common.GotoSuccess=نقل إلى الاعوجاج {0},{0}"النجاح
 Warp.Common.EnterNameFormTitle=أضف الاعوجاج
 Warp.Common.EnterNameFormTextboxTip=اسم الاعوجاج
 Warp.Common.EnterNameFormTextboxPlaceholder=اسم الاعوجاج
@@ -158,7 +158,7 @@ Warp.Common.AddResultFormBack=العودة إلى القائمة الرئيسي�
 Warp.Common.AddResultFormClose=إنهاء
 Warp.Common.DelFormTitle=حذف الاعوجاج
 Warp.Common.DelFormDropdownTip=حدد الاعوجاج للحذف
-Warp.Common.DelFormDropdownItem={0}\nإحداثيات {1}البعد{2}{3}{4}
+Warp.Common.DelFormDropdownItem={0}\nإحداثيات {1}البعد{2},{3},{4}
 Warp.Common.DelFormBottomLabel=انقر فوق "لتقديم "لحذف الاعوجاج
 Warp.Common.DelResultFormTitle=حذف النتائج
 Warp.Common.DelResultFormContent={0}
@@ -178,7 +178,7 @@ Back.Common.OnDeathFeedbackAllowTeleport=العودة إلى الموت
 Back.Common.OnDeathFeedbackEchoInfo=عرض معلومات الموت
 Back.Common.DeathHistoryTitle=سجل الموت
 Back.Common.DeathHistoryContent=لديك {0}/ {1}سجل الموت
-Back.Common.DeathHistoryItem={0}=> Dimension {1}تنسيق: {2}{3}{4}الوقت: {5:F}
+Back.Common.DeathHistoryItem={0}=> Dimension {1}تنسيق: {2},{3},{4}الوقت: {5:F}
 Back.Common.DeathHistoryButton=إنهاء
 Back.Common.BackTPLast=يتم نقله إلى آخر وضع عنيف> Dimension {0}تنسيق {1}، {2}، {3}الوقت {4:F}
 Back.Common.BackTPHurt=>>> إصابة الظهر التحصين <<<
@@ -243,8 +243,8 @@ Tpa.ProfileSettings.EditingListFormPerSelectedResultTpa=TPA.
 Tpa.ProfileSettings.EditingListFormPerSelectedResultTpahere=tpahere.
 Tpa.ProfileSettings.EditingListFormPerSelectedResultB=blacklist.
 Tpa.ProfileSettings.EditingListFormPerSelectedResultW=وايتيليست
-Tpa.ProfileSettings.EditingListFormPerSelectedResultAddSuccess=تمت إضافة {0}إلى {1}{2}
-Tpa.ProfileSettings.EditingListFormPerSelectedResultDelSuccess=تمت إزالة {0}من {1}{2}
+Tpa.ProfileSettings.EditingListFormPerSelectedResultAddSuccess=تمت إضافة {0}إلى {1},{2}
+Tpa.ProfileSettings.EditingListFormPerSelectedResultDelSuccess=تمت إزالة {0}من {1},{2}
 Tpa.ProfileSettings.EditingListFormPerSuccessTitle={0}النجاح {1}
 Tpa.ProfileSettings.EditingListFormPerSuccessButtonContinue=الاستمرار في تعديل
 Tpa.ProfileSettings.EditingListFormPerSuccessButtonBack=أغلق القائمة
@@ -258,7 +258,7 @@ Tpa.Common.ListCheckNotW=أنت لست في القائمة البيضاء من {
 Tpa.Common.ListCheckHereInB=لا يمكنك إرسال طلبات TPAHERE له في القائمة السوداء TPAHERE من {0}.
 Tpa.Common.ListCheckHereNotW=أنت لست في القائمة البيضاء من {0}، لا يمكنك إرسال طلبات TPAHERE له.
 Tpa.Common.InCooldown=طلب التبريد الحالي، يرجى المحاولة مرة أخرى بعد {0}
-Tpa.Common.SendedTip=طلب طلب ("{1}"{1}{1}{1}"""{1}
+Tpa.Common.SendedTip=طلب طلب ("{1}"{1},{1},{1}"""{1}
 Tpa.Common.ReceiveTip="{0}"{2}، إدخال /tpa acceptقبول الطلب، /tpa denyرفض الطلب
 Tpa.Common.ReceiveTipTpa=طلب نقل إلى موقعك
 Tpa.Common.ReceiveTipTpahere=دعوتك إلى موقف تا
@@ -270,7 +270,7 @@ Tpa.Common.ReceiveFormButtonAcceptedTimeOut=انتهت صلاحية الطلب!
 Tpa.Common.TimeOutFeedbackSender=لقد أرسلت طلب نقل ({2}) منتهية الصلاحية ({2}).
 Tpa.Common.TimeOutFeedbackTarget="{0}"لقد انتهت صلاحيتها لطلب النقل ({2}).
 Tpa.Common.AcceptedTipToSender="{1}"قبول طلب النقل الخاص بك ({2})، ينتقل
-Tpa.Common.AcceptedTipToTarget=قبول بنجاح من {0}{0}"التسليم ({2})
+Tpa.Common.AcceptedTipToTarget=قبول بنجاح من {0},{0}"التسليم ({2})
 Tpa.Common.DeniedTipToSender="{1}"رفض طلب النقل الخاص بك ({2})
 Tpa.Common.DeniedTipToTarget=تم تراجعها من "{0}"طلب النقل ({2})
 Tpa.Common.CancelledTipToSenderTpa=تم إلغاء طلب نقل إلى "{1}"
@@ -335,7 +335,7 @@ Money.Commands.Description.Payment=§r§eقائمة النقل المفتوح
 Money.Commands.Description.Operate=§r(98})
 Money.MoneyAPI.MoneyOnChangeTipConsole=مراقب {4}تغيير: اسم اللاعب {0}، القيمة الأصلية {1}، القيمة الحالية {2}، تغيير {3}
 Money.MoneyAPI.MoneyOnChangeTipPlayer=رصد {4}التغيير: {1}، القيمة الحالية {2}، تغيير {3}
-Money.MoneyAPI.MoneyQueryFeedBack=أنت تقدم {0}{1}
+Money.MoneyAPI.MoneyQueryFeedBack=أنت تقدم {0},{1}
 Money.Management.PayDisabled=تم إيقاف تشغيل وظيفة النقل من قبل المسؤول!
 Money.Management.MainMenuTitle=قائمة إدارة لوحة النتائج
 Money.Management.MainMenuContent=حدد العملية
@@ -361,15 +361,15 @@ Money.Management.PayToOnlinePlayerInvokeInvalidValueContent=قيمة النقل 
 Money.Management.PayToOnlinePlayerInvokeInvalidValueButton1=إعادة إرسال
 Money.Management.PayToOnlinePlayerInvokeInvalidValueButton2=أغلق القائمة
 Money.Management.PayToOnlinePlayerInsufficientBalanceTitle=التوازن غير كاف
-Money.Management.PayToOnlinePlayerInsufficientBalanceContent=عدم كفاية التوازن، غير قادر على النقل، لديك فقط {0}{2}، والنقل يتطلب {1}{2}
+Money.Management.PayToOnlinePlayerInsufficientBalanceContent=عدم كفاية التوازن، غير قادر على النقل، لديك فقط {0},{2}، والنقل يتطلب {1},{2}
 Money.Management.PayToOnlinePlayerInsufficientBalanceButton1=إعادة الدخول
 Money.Management.PayToOnlinePlayerInsufficientBalanceButton2=أغلق القائمة
 Money.Management.PayToOnlinePlayerCanceled=تم إلغاء النقل!
 Money.Management.PayToOnlinePlayerSuccess=النقل ناجح!
 Money.Management.PayToOnlinePlayerReceived=تلقي النقل!
 Money.Management.PayToOnlineConfirmTitle=تأكيد النقل
-Money.Management.PayToOnlineConfirmContent=تأكيد التحويل إلى {1}{2}{3}\nلا يمكنك سحب نقلك!
-Money.Management.PayToOnlineConfirmButton1=تأكيد النفقات {2}{3}
+Money.Management.PayToOnlineConfirmContent=تأكيد التحويل إلى {1},{2},{3}\nلا يمكنك سحب نقلك!
+Money.Management.PayToOnlineConfirmButton1=تأكيد النفقات {2},{3}
 Money.Management.PayToOnlineConfirmButton2=يلغي
 Money.Management.PayToOfflinePlayerTitle=نقل المعلمات
 Money.Management.PayToOfflinePlayerDropdown=حدد اللاعب الهدف أو أدخل اسم المشغل أدناه:
@@ -390,8 +390,8 @@ Money.Management.PayToOfflinePlayerCannotFindContent=لم تجد الحساب ا
 Money.Management.PayToOfflinePlayerCannotFindButton1=إعادة الدخول
 Money.Management.PayToOfflinePlayerCannotFindButton2=يلغي
 Money.Management.PayToOfflineConfirmTitle=تأكيد النقل
-Money.Management.PayToOfflineConfirmContent=تأكيد التحويل إلى {1}{2}{3}\nلا يمكنك سحب نقلك!
-Money.Management.PayToOfflineConfirmButton1=تأكيد النفقات {2}{3}
+Money.Management.PayToOfflineConfirmContent=تأكيد التحويل إلى {1},{2},{3}\nلا يمكنك سحب نقلك!
+Money.Management.PayToOfflineConfirmButton1=تأكيد النفقات {2},{3}
 Money.Management.PayToOfflineConfirmButton2=يلغي
 Money.Management.PayToOfflinePlayerInvokeInvalidValueTitle=فشل نقل
 Money.Management.PayToOfflinePlayerInvokeInvalidValueContent=قيمة النقل غير صالحة (غير صالحة {0})
@@ -428,7 +428,7 @@ Money.Management.OPPanelFeedBackSetInvalid=اضبط فشل (قيمة قيمة ا
 Money.Management.OPPanelFeedBackSetFailed=تعيين فشل (فشل تنفيذ الأمر)
 Money.Management.MoneyRankTitle=تصنيفات {0}
 Money.Management.MoneyRankFirstLine={0}القائمة:
-Money.Management.MoneyRankLine=اللاعبون {0}لديهم {1}{2}
+Money.Management.MoneyRankLine=اللاعبون {0}لديهم {1},{2}
 Money.Management.MoneyRankPanelClose=إنهاء
 Transfer.Commands.Description.Main=§r§eنقل النقل عبر الخدمة
 Transfer.Forms.MainTitle=§r§eنقل الصور عبر الخدمة الرئيسية
@@ -475,16 +475,16 @@ ChatEx.Common.OpFormChoosePlayerTitle=لاعب
 ChatEx.Common.OpFormChoosePlayerDropdownDes=\nحدد اللاعب المستهدف {0}
 ChatEx.Common.OpFormChoosePlayerChooseNope=لا لاعب
 ChatEx.Common.OpFormChoosePlayerOperationTitle=حدد العملية
-ChatEx.Common.OpFormChoosePlayerOperationContent=\nحدد الإجراء الهدف {1}{0}
+ChatEx.Common.OpFormChoosePlayerOperationContent=\nحدد الإجراء الهدف {1},{0}
 ChatEx.Common.OpFormChoosePlayerButtonMotdify=يراجع
 ChatEx.Common.OpFormChoosePlayerButtonClear=صافي
-ChatEx.Common.OpFormMotdifyTitle=تعديل {0}{1}
-ChatEx.Common.OpFormMotdifyTextboxDes=تعديل {0}{1}
+ChatEx.Common.OpFormMotdifyTitle=تعديل {0},{1}
+ChatEx.Common.OpFormMotdifyTextboxDes=تعديل {0},{1}
 ChatEx.Common.OpFormMotdifyTextboxPlaceholder=أدخل {1}
 ChatEx.Common.WasMotdified=يتم تعديل {0}الخاص بك إلى {3}
-ChatEx.Common.MotdifiedSuccess=سيتم تعديل النجاح إلى {2}{0}إلى {3}
+ChatEx.Common.MotdifiedSuccess=سيتم تعديل النجاح إلى {2},{0}إلى {3}
 ChatEx.Common.WasCleared=يتم مسح {0}بواسطة {1}
-ChatEx.Common.ClearedSuccess=واضح {0}{2}
+ChatEx.Common.ClearedSuccess=واضح {0},{2}
 ChatEx.Common.OperationNoPermission=لا يوجد إذن!
 Lands.Commands.Description.main=§r§eالقائمة البرنامج المساعد للإقليم
 Lands.Commands.Tips.Enclosure2DDisabled=تم تعطيل دائرة ثنائية الأبعاد!
@@ -509,8 +509,8 @@ Lands.Commands.Tips.PurchaseEnclosureOverSize2D=تتراوح نطاق الإقل
 Lands.Commands.Tips.PurchaseEnclosureOverSize3D=تتراوح نطاق الإقليم (كتلة {0}) على الحد الأقصى للحجم حسب المجموعة ثلاثية الأبعاد (Block {1}Block)
 Lands.Commands.Tips.SetEnclosureASuccess=قم بتعيين النقطة بنجاح A ({0}، {1}، {2}: {3})، بعد كسر نقطة الإعداد المربعة B
 Lands.Commands.Tips.SetEnclosureBSuccess=تعيين بنجاح Point B ({0}، {1}، {2}: {3})، /landعرض معلومات أمر
-Lands.Commands.Tips.Purchased=الإقليم ناجح، إنفاق {0}{1}!
-Lands.Commands.Tips.MoneyInsufficient={2}غير كافية، تحتاج {0}{2}، لديك فقط {1}{2}!
+Lands.Commands.Tips.Purchased=الإقليم ناجح، إنفاق {0},{1}!
+Lands.Commands.Tips.MoneyInsufficient={2}غير كافية، تحتاج {0},{2}، لديك فقط {1},{2}!
 Lands.Commands.Tips.InvalidLandName=اسم الإقليم الذي تم إدخاله غير صالح!
 Lands.Commands.Tips.LandNameNoChange=اسم دخل هو نفسه كما كان من قبل!
 Lands.Commands.Tips.LandNameEdited=اسم الإقليم ناجح!
@@ -521,10 +521,10 @@ Lands.Commands.Tips.LandMessageNoChange=إقليم المدخلات هي نفس�
 Lands.Commands.Tips.LandMessageEdited=تم تغيير رسالة الإقليم!
 Lands.Commands.Tips.LandMessageRemoveNotSet=لم يتم تعيين رسالة الإقليم، لا يمكن إزالتها!
 Lands.Commands.Tips.LandMessageRemoved=إزالة رسالة الطابق الأرضي ناجح!
-Lands.Commands.Tips.PermFuncEnabled=تعيين وظيفة {1}من الإقليم {0}{2}
-Lands.Commands.Tips.PermPublicSet=تعيين الهيئة العامة (98}) للإقليم {0}{2}
-Lands.Commands.Tips.PermSharedDefaultSet=قم بتعيين اللاعب المشترك للإقليم {0}{1}إذن افتراضي هو {2}
-Lands.Commands.Tips.PermSharedSet=اضبط اللاعب المشترك {1}من الإقليم {0}{2}إذن إلى {3}
+Lands.Commands.Tips.PermFuncEnabled=تعيين وظيفة {1}من الإقليم {0},{2}
+Lands.Commands.Tips.PermPublicSet=تعيين الهيئة العامة (98}) للإقليم {0},{2}
+Lands.Commands.Tips.PermSharedDefaultSet=قم بتعيين اللاعب المشترك للإقليم {0},{1}إذن افتراضي هو {2}
+Lands.Commands.Tips.PermSharedSet=اضبط اللاعب المشترك {1}من الإقليم {0},{2}إذن إلى {3}
 Lands.Commands.Tips.PermAllowed=السماح
 Lands.Commands.Tips.PermForbidden=يحظر
 Lands.Commands.Tips.PermEnabled=فتح
@@ -538,10 +538,10 @@ Lands.Commands.Tips.GiveLandToPlayerTargetInvalid=لاعب الهدف غير ص�
 Lands.Commands.Tips.GiveLandToPlayerGiveSuccess=تم نقل {0}إلى {2}
 Lands.Commands.Tips.GiveLandToPlayerMaximumOwnLands=غير قادر على قيادة {0}إلى {2}، وصل عدد الأقاليم إلى الحد الأعلى ({4})
 Lands.Commands.Tips.GiveLandToPlayerReceiveSuccess=تم نقل {1}إليك {0}
-Lands.Commands.Tips.SellLandSuccess=حذف الإقليم {0}النجاح، والعودة {1}{2}
+Lands.Commands.Tips.SellLandSuccess=حذف الإقليم {0}النجاح، والعودة {1},{2}
 Lands.Commands.Tips.SetLandTpPosSuccess=نقطة نقل الإعداد الناجح للإقليم {0}(x = {1:F1}، y = {2:F1}، z = {3:F1})
 Lands.Commands.Tips.GotoLandTpSuccess=انتقل إلى الإقليم {0}(x = {1:F1}، y = {2:F1}، z = {3:F1})
-Lands.Commands.Tips.DeleteRLandSuccess=إرجاع الإقليم {0}النجاح، العائدين لاعب {1}{2}{3}
+Lands.Commands.Tips.DeleteRLandSuccess=إرجاع الإقليم {0}النجاح، العائدين لاعب {1},{2},{3}
 Lands.Commands.Tips.DeleteLandSuccess=حذف الإقليم {0}النجاح
 Lands.Commands.Tips.AddedToSharedList=إضافة لاعب بنجاح {0}إلى القائمة المشتركة للإقليم {1}
 Lands.Commands.Tips.BeAddedToSharedList=تمت إضافته إلى القائمة المشتركة للإقليم {1}(المشغل: {0})
@@ -564,16 +564,16 @@ Lands.Common.Forms.BeforePurchaseMainTitle=تأكيد نطاق الإقليم
 Lands.Common.Forms.LandType2D=ثنائي الأبعاد
 Lands.Common.Forms.LandType3D=ثلاثي الأبعاد
 Lands.Common.Forms.LandPoint=x = {0}، y = {1}، z = {2}
-Lands.Common.Forms.LandSize3D={0}{1}{2}= {3}(Square)
+Lands.Common.Forms.LandSize3D={0},{1},{2}= {3}(Square)
 Lands.Common.Forms.LandSize2D={0}× {1}= {2}(متر مربع)
-Lands.Common.Forms.LandMoneyTip=نصيحة: لديك {0}{1}
-Lands.Common.Forms.BeforePurchaseMainContent=المنطقة {0}المحددة:\n  نقطة البداية: {1}\n  نقطة النهاية: {2}\n  الحجم: {3}\n  الأبعاد: {4}\n  السعر: {5}× {6}= {7}{8}\n{9}
+Lands.Common.Forms.LandMoneyTip=نصيحة: لديك {0},{1}
+Lands.Common.Forms.BeforePurchaseMainContent=المنطقة {0}المحددة:\n  نقطة البداية: {1}\n  نقطة النهاية: {2}\n  الحجم: {3}\n  الأبعاد: {4}\n  السعر: {5}× {6}= {7},{8}\n{9}
 Lands.Common.Forms.BeforePurchaseMainButtonConfirm=نطاق التأكيد
 Lands.Common.Forms.BeforePurchaseMainButtonBackToMain=العودة إلى القائمة الرئيسية
 Lands.Common.Forms.BeforePurchaseMainButtonCancel=متابعة اختيار مربع
 Lands.Common.Forms.PurchaseMainTitle=تأكيد الشراء
-Lands.Common.Forms.PurchaseMainContent=منطقة {0}المحددة:\n  نقطة البداية: {1}\n  نقطة النهاية: {2}\n  الحجم: {3}\n  الأبعاد: {4}\n  السعر: {5}× {6}= {7}{8}\n{9}
-Lands.Common.Forms.PurchaseMainButtonConfirm=دفع {0}{1}BUY
+Lands.Common.Forms.PurchaseMainContent=منطقة {0}المحددة:\n  نقطة البداية: {1}\n  نقطة النهاية: {2}\n  الحجم: {3}\n  الأبعاد: {4}\n  السعر: {5}× {6}= {7},{8}\n{9}
+Lands.Common.Forms.PurchaseMainButtonConfirm=دفع {0},{1}BUY
 Lands.Common.Forms.PurchaseMainButtonBackToMain=إرجاع قائمة المالك
 Lands.Common.Forms.PurchaseExit=إلغاء العملية، مواصلة الدورة الدموية
 Lands.Common.Forms.PurchaseMainButtonCancel=يلغي
@@ -583,7 +583,7 @@ Lands.Common.Forms.OPManageCurrentNoLandContent=لا توجد أراض تحت ق
 Lands.Common.Forms.OPManageCurrentNoLandConfirm=إرجاع القائمة الرئيسية لإدارة الأراضي
 Lands.Common.Forms.OPManageCurrentNoLandCancel=إنهاء
 Lands.Common.Forms.OPManageLandMainTitle=الإدارة {0}
-Lands.Common.Forms.OPManageLandMainContent=الإدارة: {0}\nيقع في: {1}{{{2},{3},{4}}},{{{5},{6},{7}}}\nرسالة: {8}\nمالك الإقليم: {9}
+Lands.Common.Forms.OPManageLandMainContent=الإدارة: {0}\nيقع في: {1},{{{2},{3},{4}}},{{{5},{6},{7}}}\nرسالة: {8}\nمالك الإقليم: {9}
 Lands.Common.Forms.OPManageLandMainSetTip=اضبط نصائح الإقليم
 Lands.Common.Forms.OPManageLandMainSetPerm=إقليم الإدارة
 Lands.Common.Forms.OPManageLandMainSharedPlayers=إدارة مشاركت الإدارة
@@ -592,31 +592,31 @@ Lands.Common.Forms.OPManageLandMainQuit=أغلق القائمة
 Lands.Common.Forms.OPManageLandMainDelete=حذف الإقليم مباشرة
 Lands.Common.Forms.OPManageLandMainDeleteR=حذف الإقليم واسترداد جميع {0}
 Lands.Common.Forms.OPManageLandTransferTitle=نقل المنطقة القائمة الرئيسية
-Lands.Common.Forms.OPManageLandTransferContent=معلومات الإقليم المحددة:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}\nحدد إجراء:
+Lands.Common.Forms.OPManageLandTransferContent=معلومات الإقليم المحددة:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}\nحدد إجراء:
 Lands.Common.Forms.OPManageLandTransferGive=إعطاء
 Lands.Common.Forms.OPManageLandTransferRecycle=إعادة تدوير الأراضي
 Lands.Common.Forms.OPManageSharedPlayersTitle=القائمة الرئيسية الرئيسية الرئيسية
-Lands.Common.Forms.OPManageSharedPlayersContent=القائمة الرئيسية لتقاسم الأراضي\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}
+Lands.Common.Forms.OPManageSharedPlayersContent=القائمة الرئيسية لتقاسم الأراضي\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}
 Lands.Common.Forms.OPManageSharedPlayersAdd=أضف لاعبين مشتركين
 Lands.Common.Forms.OPManageSharedPlayersRemove=إزالة مشاركة اللاعبين
 Lands.Common.Forms.OPManageSharedPlayersSetPerm=اضبط الإذن المشترك لتحديد اللاعب
 Lands.Common.Forms.OPManageLandPermTitle=إدارة سلطة الأراضي الرئيسية
-Lands.Common.Forms.OPManageLandPermContent=إدارة إعدادات أذونات المنطقة:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}
+Lands.Common.Forms.OPManageLandPermContent=إدارة إعدادات أذونات المنطقة:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}
 Lands.Common.Forms.OPManageLandPermPublic=تعديل الأذونات العامة
 Lands.Common.Forms.OPManageLandPermSharedDefault=تعديل الأذونات الافتراضية للاعبين المشتركين
 Lands.Common.Forms.OPManageLandPermSharedPlayer=تعديل أذونات اللاعب المشترك المحدد
 Lands.Common.Forms.OPManageLandTipTitle=إدارة الأراضي القائمة الرئيسية
-Lands.Common.Forms.OPManageLandTipContent=إدارة تلميحات الإقليم:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}
+Lands.Common.Forms.OPManageLandTipContent=إدارة تلميحات الإقليم:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}
 Lands.Common.Forms.OPManageLandTipEditDisplayName=اسم المحرر
 Lands.Common.Forms.OPManageLandTipRemoveDisplayName=إزالة اسم الإقليم
 Lands.Common.Forms.OPManageLandTipEditMessage=تحرير رسالة الإقليم
 Lands.Common.Forms.OPManageLandTipRemoveMessage=إزالة رسالة الإقليم
 Lands.Common.Forms.OPManageLandConfirmDeleteTitle=تأكيد الحذف؟
-Lands.Common.Forms.OPManageLandConfirmDeleteContent=تأكيد حذف الأراضي؟\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}
+Lands.Common.Forms.OPManageLandConfirmDeleteContent=تأكيد حذف الأراضي؟\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}
 Lands.Common.Forms.OPManageLandConfirmDeleteButton1=تؤكد
 Lands.Common.Forms.OPManageLandConfirmDeleteButton2=إرجاع
 Lands.Common.Forms.OPManageLandConfirmDeleteRTitle=تأكيد أنه يتم إرجاعه؟
-Lands.Common.Forms.OPManageLandConfirmDeleteRContent=تأكيد عودة الأراضي؟\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}
+Lands.Common.Forms.OPManageLandConfirmDeleteRContent=تأكيد عودة الأراضي؟\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nمالك الإقليم: {9}
 Lands.Common.Forms.OPManageLandConfirmDeleteRButton1=تؤكد
 Lands.Common.Forms.OPManageLandConfirmDeleteRButton2=إرجاع
 Lands.Common.Forms.ManageMainNoLandTitle=فارغة
@@ -637,9 +637,9 @@ Lands.Common.Forms.ManageCurrentLandInvalidConfirm=العودة إلى القا�
 Lands.Common.Forms.ManageCurrentLandInvalidCancel=إنهاء
 Lands.Common.Forms.ManageFromAllTitle=حدد الإقليم
 Lands.Common.Forms.ManageFromAllContent=اختيار واحدة من أراضيك لإدارة
-Lands.Common.Forms.ManageFromAllItem={0}{1}{{{2},{3},{4}}},{{{5},{6},{7}}}
+Lands.Common.Forms.ManageFromAllItem={0},{1},{{{2},{3},{4}}},{{{5},{6},{7}}}
 Lands.Common.Forms.ManageLandMainTitle=الإدارة {0}
-Lands.Common.Forms.ManageLandMainContent=الإدارة: {0}\nيقع في: {1}{{{2},{3},{4}}},{{{5},{6},{7}}}\nرسالة: {8}
+Lands.Common.Forms.ManageLandMainContent=الإدارة: {0}\nيقع في: {1},{{{2},{3},{4}}},{{{5},{6},{7}}}\nرسالة: {8}
 Lands.Common.Forms.ManageLandMainSetTip=اضبط نصائح الإقليم
 Lands.Common.Forms.ManageLandMainSetPerm=إقليم الإدارة
 Lands.Common.Forms.ManageLandMainSharedPlayers=إدارة مشاركت الإدارة
@@ -647,7 +647,7 @@ Lands.Common.Forms.ManageLandMainTransfer=نقل الأراضي
 Lands.Common.Forms.ManageLandMainTeleport=نقل الأراضي
 Lands.Common.Forms.ManageLandMainQuit=أغلق القائمة
 Lands.Common.Forms.ManageLandTipTitle=إدارة الأراضي القائمة الرئيسية
-Lands.Common.Forms.ManageLandTipContent=إدارة تلميحات الإقليم:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
+Lands.Common.Forms.ManageLandTipContent=إدارة تلميحات الإقليم:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
 Lands.Common.Forms.ManageLandTipEditDisplayName=اسم المحرر
 Lands.Common.Forms.ManageLandTipRemoveDisplayName=إزالة اسم الإقليم
 Lands.Common.Forms.ManageLandTipEditMessage=تحرير رسالة الإقليم
@@ -667,14 +667,14 @@ Lands.Common.Forms.ManageLandRemoveMessageConfirmContent=تأكيد إزالة �
 Lands.Common.Forms.ManageLandRemoveMessageConfirmButton1=تؤكد
 Lands.Common.Forms.ManageLandRemoveMessageConfirmButton2=إرجاع
 Lands.Common.Forms.ManageLandPermTitle=إدارة سلطة الأراضي الرئيسية
-Lands.Common.Forms.ManageLandPermContent=إدارة إعدادات أذونات المنطقة:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
+Lands.Common.Forms.ManageLandPermContent=إدارة إعدادات أذونات المنطقة:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
 Lands.Common.Forms.ManageLandPermPublic=تعديل الأذونات العامة
 Lands.Common.Forms.ManageLandPermSharedDefault=تعديل الأذونات الافتراضية للاعبين المشتركين
 Lands.Common.Forms.ManageLandPermSharedPlayer=تعديل أذونات اللاعب المشترك المحدد
 Lands.Common.Forms.ManageLandPermPublicTitle=ضبط السلطة العامة
-Lands.Common.Forms.ManageLandPermPublicDes=إدارة معلومات السلطة العامة في الإقليم\n(الامتيازات العامة هي الامتيازات التي يمكن لجميع اللاعبين القيام بها في الإقليم)\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
+Lands.Common.Forms.ManageLandPermPublicDes=إدارة معلومات السلطة العامة في الإقليم\n(الامتيازات العامة هي الامتيازات التي يمكن لجميع اللاعبين القيام بها في الإقليم)\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
 Lands.Common.Forms.ManageLandPermSharedDefaultTitle=اضبط أذونات مشاركة الأراضي
-Lands.Common.Forms.ManageLandPermSharedDefaultDes=إدارة المناطق لمشاركة الأذونات الافتراضية للاعب\n(الأذونات الافتراضية للاعب المشترك هي إعدادات الأذونات المستخدمة عند تعيين أذونات اللاعب المشتركة للوراثة) الموجودة على: {0}{{{1}، {2}، {3}}}، {{{4}، {5}، {6}}}\n  الاسم: تعليقات {7}: {8}
+Lands.Common.Forms.ManageLandPermSharedDefaultDes=إدارة المناطق لمشاركة الأذونات الافتراضية للاعب\n(الأذونات الافتراضية للاعب المشترك هي إعدادات الأذونات المستخدمة عند تعيين أذونات اللاعب المشتركة للوراثة) الموجودة على: {0},{{{1}، {2}، {3}}}، {{{4}، {5}، {6}}}\n  الاسم: تعليقات {7}: {8}
 Lands.Common.Forms.PermToggle=سواء للسماح {0}
 Lands.Common.Forms.AllowToggle={0}مفتوح
 Lands.Common.Forms.PermStepSlider={0}السلطة
@@ -686,23 +686,23 @@ Lands.Common.Forms.SharedPermSetNoPlayerContent=لم تقم الإقليم ال�
 Lands.Common.Forms.SharedPermSetNoPlayerButton1=العودة إلى الرقم العلوي
 Lands.Common.Forms.SharedPermSetNoPlayerButton2=إنهاء
 Lands.Common.Forms.SharedPermSelectPlayerTitle=حدد مشغلات لتعديل أذونات المشاركة
-Lands.Common.Forms.SharedPermSelectPlayerLabel=الأقاليم المختارة:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\n
+Lands.Common.Forms.SharedPermSelectPlayerLabel=الأقاليم المختارة:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\n
 Lands.Common.Forms.SharedPermSelectPlayerDropdown=حدد مشغلات لتعديل أذونات المشاركة:
 Lands.Common.Forms.SharedPermSelectSelectedNothing=لا يوجد لاعبون محددون!
 Lands.Common.Forms.AddSharedSelectPlayerTitle=حدد اللاعبين لإضافة مشاركة لإضافة
-Lands.Common.Forms.AddSharedSelectPlayerLabel=الأقاليم المختارة:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\n
+Lands.Common.Forms.AddSharedSelectPlayerLabel=الأقاليم المختارة:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\n
 Lands.Common.Forms.AddSharedSelectPlayerDropdown=حدد المشغل لإضافته إلى القائمة المشتركة:
 Lands.Common.Forms.AddSharedSelectSelectedNothing=لا يوجد لاعبون محددون!
 Lands.Common.Forms.RemoveSharedSelectPlayerTitle=حدد اللاعبين لإزالة المشاركة
-Lands.Common.Forms.RemoveSharedSelectPlayerLabel=الأقاليم المختارة:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\n
+Lands.Common.Forms.RemoveSharedSelectPlayerLabel=الأقاليم المختارة:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\n
 Lands.Common.Forms.RemoveSharedSelectPlayerDropdown=حدد المشغل لإزالة قائمة المشاركة الذاتية:
 Lands.Common.Forms.RemoveSharedSelectSelectedNothing=لا يوجد لاعبون محددون!
 Lands.Common.Forms.TransferGiveSelectPlayerTitle=اختيار اللاعبين لإعطاء أرض الموهوبين
-Lands.Common.Forms.TransferGiveSelectPlayerLabel=الأقاليم المختارة:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\n
+Lands.Common.Forms.TransferGiveSelectPlayerLabel=الأقاليم المختارة:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\n
 Lands.Common.Forms.TransferGiveSelectPlayerDropdown=اختيار لاعب لإعطاء هدية:
 Lands.Common.Forms.TransferGiveSelectSelectedNothing=لا يوجد لاعبون محددون!
 Lands.Common.Forms.ManageSharedPlayersTitle=القائمة الرئيسية الرئيسية الرئيسية
-Lands.Common.Forms.ManageSharedPlayersContent=القائمة الرئيسية لتقاسم الأراضي\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
+Lands.Common.Forms.ManageSharedPlayersContent=القائمة الرئيسية لتقاسم الأراضي\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
 Lands.Common.Forms.ManageSharedPlayersAdd=أضف لاعبين مشتركين
 Lands.Common.Forms.ManageSharedPlayersRemove=إزالة مشاركة اللاعبين
 Lands.Common.Forms.ManageSharedPlayersSetPerm=اضبط الإذن المشترك لتحديد اللاعب
@@ -715,19 +715,19 @@ Lands.Common.Forms.ManageSharedRemovePlayerContent=تأكد من إزالة ال
 Lands.Common.Forms.ManageSharedRemovePlayerConfirm=تأكيد إزالة {0}في القائمة المشتركة
 Lands.Common.Forms.ManageSharedRemovePlayerCancel=إرجاع
 Lands.Common.Forms.ManageTpConfirmGoT=تأكيد إلى الإقليم
-Lands.Common.Forms.ManageTpConfirmGoC=تأكد من الذهاب إلى الإقليم\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
+Lands.Common.Forms.ManageTpConfirmGoC=تأكد من الذهاب إلى الإقليم\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
 Lands.Common.Forms.ManageTpConfirmGoConfirm=تأكيد
 Lands.Common.Forms.ManageTpConfirmGoBack=إرجاع
 Lands.Common.Forms.ManageTpConfirmSetT=تأكيد نقطة نقل نقطة
-Lands.Common.Forms.ManageTpConfirmSetC=تأكد من تعيين نقطة النقل إلى\n  x={9:F2}\n  y={10:F2}\n  z = {11:F2}\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
+Lands.Common.Forms.ManageTpConfirmSetC=تأكد من تعيين نقطة النقل إلى\n  x={9:F2}\n  y={10:F2}\n  z = {11:F2}\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
 Lands.Common.Forms.ManageTpConfirmSetConfirm=تأكيد نقطة نقل نقطة
 Lands.Common.Forms.ManageTpConfirmSetBack=إرجاع
 Lands.Common.Forms.ManageTpNotSetT=الأرض لم تحدد بعد نقطة النقل
-Lands.Common.Forms.ManageTpNotSetC=لم يحدد الإقليم بعد نقطة نقل عن بعد\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
+Lands.Common.Forms.ManageTpNotSetC=لم يحدد الإقليم بعد نقطة نقل عن بعد\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
 Lands.Common.Forms.ManageTpNotSetClose=إنهاء
 Lands.Common.Forms.ManageTpNotSetBack=إرجاع
 Lands.Common.Forms.ManageTpNotInLandT=غير قادر على تعيين نقطة النقل
-Lands.Common.Forms.ManageTpNotInLandC=ليس في المنطقة، لا يمكنك تعيين نقطة نقل عن بعد\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
+Lands.Common.Forms.ManageTpNotInLandC=ليس في المنطقة، لا يمكنك تعيين نقطة نقل عن بعد\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}
 Lands.Common.Forms.ManageTpNotInLandClose=إنهاء
 Lands.Common.Forms.ManageTpNotInLandBack=إرجاع
 Lands.Common.Forms.SharedAddNoPlayerTitle=لا لاعب آخر عبر الإنترنت
@@ -739,11 +739,11 @@ Lands.Common.Forms.SharedRemoveNoPlayerContent=لم تقم الأراضي الح
 Lands.Common.Forms.SharedRemoveNoPlayerButton1=العودة إلى الرقم العلوي
 Lands.Common.Forms.SharedRemoveNoPlayerButton2=إنهاء
 Lands.Common.Forms.ManageLandTransferTitle=نقل المنطقة القائمة الرئيسية
-Lands.Common.Forms.ManageLandTransferContent=معلومات الإقليم المحددة:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nحدد إجراء:
+Lands.Common.Forms.ManageLandTransferContent=معلومات الإقليم المحددة:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nحدد إجراء:
 Lands.Common.Forms.ManageLandTransferGive=إعطاء
 Lands.Common.Forms.ManageLandTransferRecycle=إعادة تدوير الأراضي
 Lands.Common.Forms.ManageLandTeleportTitle=نقل المنطقة القائمة الرئيسية
-Lands.Common.Forms.ManageLandTeleportContent=معلومات الإقليم المحددة:\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nحدد إجراء:
+Lands.Common.Forms.ManageLandTeleportContent=معلومات الإقليم المحددة:\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\n  الاسم: تعليقات {7}: {8}\nحدد إجراء:
 Lands.Common.Forms.ManageLandTeleportGo=الذهاب إلى الأرض
 Lands.Common.Forms.ManageLandTeleportSet=تعيين نقطة مرساة
 Lands.Common.Forms.ManageLandTeleportHasBeenDisabledT=تم تعطيل نقل الإقليم
@@ -755,7 +755,7 @@ Lands.Common.Forms.TransferGiveConfirmContent=سواء تأكيد إقليم ا�
 Lands.Common.Forms.TransferGiveConfirmButton1=تأكيد نقل الإقليم إلى {1}
 Lands.Common.Forms.TransferGiveConfirmButton2=إرجاع
 Lands.Common.Forms.TransferRecycleConfirmTitle=تأكيد إقليم إعادة التدوير
-Lands.Common.Forms.TransferRecycleConfirmContent=تأكيد استصلاح الأراضي{7}\n  يقع في: {0}{{{1},{2},{3}}},{{{4},{5},{6}}}\nسوف تحصل على {8}{9}
+Lands.Common.Forms.TransferRecycleConfirmContent=تأكيد استصلاح الأراضي{7}\n  يقع في: {0},{{{1},{2},{3}}},{{{4},{5},{6}}}\nسوف تحصل على {8},{9}
 Lands.Common.Forms.TransferRecycleConfirmButton1=تأكيد إقليم إعادة التدوير
 Lands.Common.Forms.TransferRecycleConfirmButton2=إرجاع
 Lands.Common.Tips.PlayerEnterLandTip=أدخل {0}الإقليم ({1})
@@ -840,11 +840,11 @@ Menu.Forms.NoPermissionUseButtonContent=لا إذن لاستخدام هذا ال
 Menu.Forms.NoPermissionUseButtonBack=إرجاع القائمة الحالية
 Menu.Forms.NoPermissionUseButtonClose=إنهاء
 Menu.Forms.ButtonCostMoneyTitle=بحاجة إلى إنفاق {0}
-Menu.Forms.ButtonCostMoneyContent=استخدام هذا الزر يكلف {0}{1}\n[تلميح] أنت تملك {2}{1}
-Menu.Forms.ButtonCostMoneyConfirm=تأكيد الإنفاق {0}{1}
+Menu.Forms.ButtonCostMoneyContent=استخدام هذا الزر يكلف {0},{1}\n[تلميح] أنت تملك {2},{1}
+Menu.Forms.ButtonCostMoneyConfirm=تأكيد الإنفاق {0},{1}
 Menu.Forms.ButtonCostMoneyBack=إرجاع
 Menu.Forms.ButtonNoEnoughMoneyTitle={0}
-Menu.Forms.ButtonNoEnoughMoneyContent=لديك فقط {2}{1}لا يمكن استخدام هذا الزر\nيستغرق {0}{1}لاستخدام هذا الزر
+Menu.Forms.ButtonNoEnoughMoneyContent=لديك فقط {2},{1}لا يمكن استخدام هذا الزر\nيستغرق {0},{1}لاستخدام هذا الزر
 Menu.Forms.ButtonNoEnoughMoneyClose=إنهاء
 Menu.Forms.ButtonNoEnoughMoneyBack=إرجاع
 Menu.Forms.NoPermissionOpenMenuTitle=لا يوجد إذن
@@ -861,10 +861,10 @@ PFShop.CommandsDescription.CommandReload=§r§eمعلومات متجر محفو�
 PFShop.CommandsDescription.main=§r§ePFShop Menu Store
 PFShop.RecycleButtons.recyclePreviousList=<== العودة إلى القائمة الفائقة
 PFShop.RecycleButtons.recycleSubList=§l{0}\n§oالفرعية ==>
-PFShop.RecycleButtons.recycleListItem=#{0}§l{1}\n{2:F2}{3}/ جهاز الكمبيوتر
+PFShop.RecycleButtons.recycleListItem=#{0}§l{1}\n{2:F2},{3}/ جهاز الكمبيوتر
 PFShop.SellButtons.sellPreviousList=<== العودة إلى القائمة الفائقة
 PFShop.SellButtons.sellSubList=§l{0}\n§oالفرعية ==>
-PFShop.SellButtons.sellListItem=#{0}§l{1}\n{2:F2}{3}/ جهاز الكمبيوتر
+PFShop.SellButtons.sellListItem=#{0}§l{1}\n{2:F2},{3}/ جهاز الكمبيوتر
 PFShop.CommandNoPerm=لا إذن لتنفيذ هذا الأمر
 PFShop.CommandReloadSuccess=تم تحميل معلومات المتجر
 PFShop.ShopMainTitle=متجر
@@ -901,20 +901,20 @@ PFShop.confirmRecycleContent=معلومات إعادة التدوير:\n  الا
 PFShop.confirmRecycleAccept=تأكيد إعادة التدوير
 PFShop.confirmRecycleCancel=إرجاع
 PFShop.buySuccessfullyTitle=§1نجاح الشراء
-PFShop.buySuccessfullyContent=§bشراء ناجحة!\n§aقضى {0}{3}\nشراء {1}{2}
+PFShop.buySuccessfullyContent=§bشراء ناجحة!\n§aقضى {0},{3}\nشراء {1},{2}
 PFShop.buySuccessfullyButtonBack=العودة إلى مواصلة التسوق
 PFShop.buySuccessfullyButtonClose=إنهاء
 PFShop.buyFailedTitle=§4فشل الشراء!
-PFShop.buyFailedContent=فشل §cالشراء!\n§e{1}{2}تحتاج {0}{3}\nلديك فقط {4}{3}
+PFShop.buyFailedContent=فشل §cالشراء!\n§e{1},{2}تحتاج {0},{3}\nلديك فقط {4},{3}
 PFShop.buyFailedButtonBack=إعادة إدخال الكمية
 PFShop.buyFailedButtonClose=إنهاء
 PFShop.recycleGetItemApiFailed=فشل اكتساب API
 PFShop.recycleSuccessfullyTitle=§1نجاح إعادة التدوير
-PFShop.recycleSuccessfullyContent=§aإعادة التدوير ناجحة!\n{0}{1}§e{2}{3}المستردة
+PFShop.recycleSuccessfullyContent=§aإعادة التدوير ناجحة!\n{0},{1}§e{2},{3}المستردة
 PFShop.recycleSuccessfullyButtonBack=العودة إلى متابعة إعادة التدوير
 PFShop.recycleSuccessfullyButtonClose=إنهاء
 PFShop.RecyclingFailedTitle=§4فشل إعادة التدوير!
-PFShop.RecyclingFailedContent=§cفشلت إعادة التدوير!\n§eلديك فقط {3}{1}في حقيبة ظهرك.
+PFShop.RecyclingFailedContent=§cفشلت إعادة التدوير!\n§eلديك فقط {3},{1}في حقيبة ظهرك.
 PFShop.RecyclingFailedButtonBack=إعادة إدخال الكمية
 PFShop.RecyclingFailedButtonClose=إنهاء
 PFShop.preferenceMainTitle=تفضيلات PF Store الشخصية
@@ -924,5 +924,5 @@ PFShop.preferenceMainMaxValueTip=القيمة القصوى عند استخدام
 PFShop.preferenceMainUsingSlider=مؤشر شريط التمرير
 PFShop.preferenceMainUsingTextbox=مربع النص المدخلة يدويا
 PFShop.preferenceSaved=الإعدادات الشخصية حفظ النجاح
-PFShop.LLMoneyHistSell=شراء {0}{1}
-PFShop.LLMoneyHistRecycle=إعادة التدوير {0}{1}
+PFShop.LLMoneyHistSell=شراء {0},{1}
+PFShop.LLMoneyHistRecycle=إعادة التدوير {0},{1}
