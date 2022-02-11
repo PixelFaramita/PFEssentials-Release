@@ -956,3 +956,5 @@ PFShop.preferenceMainUsingTextbox=文本框手动输入
 PFShop.preferenceSaved=个人设置保存成功
 PFShop.LLMoneyHistSell=购买{0}个{1}
 PFShop.LLMoneyHistRecycle=回收{0}个{1}
+WorldBorder.Common.OutOfBorder=已超出世界边界
+General.BedrockLog.ServerStartedDone=服务端启动完毕！耗时{0}秒。

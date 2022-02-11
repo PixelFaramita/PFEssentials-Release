@@ -957,3 +957,5 @@ Lands.Common.Tips.Permissions.ManageShared=تقاسم الإدارة
 Lands.Common.Tips.Permissions.ManagePermission=تحرير إذن
 Lands.Common.Tips.Permissions.ManageInfo=تعديل المعلومات
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[لا يمكن تعديل الأشخاص المشتركين] {0}
+WorldBorder.Common.OutOfBorder=لديها وراء الحدود العالمية
+General.BedrockLog.ServerStartedDone=بدأ الخادم!

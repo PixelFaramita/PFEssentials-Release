@@ -957,3 +957,5 @@ Lands.Common.Tips.Permissions.ManageShared=관리 공유
 Lands.Common.Tips.Permissions.ManagePermission=편집 허가
 Lands.Common.Tips.Permissions.ManageInfo=정보를 수정하십시오
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[공유 사람들은 수정할 수 없습니다] {0}
+WorldBorder.Common.OutOfBorder=세계 경계를 넘어서있다
+General.BedrockLog.ServerStartedDone=서버가 시작되었습니다!

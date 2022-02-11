@@ -956,3 +956,5 @@ Lands.Common.Tips.Permissions.ManageShared=Management sharing
 Lands.Common.Tips.Permissions.ManagePermission=edit permission
 Lands.Common.Tips.Permissions.ManageInfo=Modify information
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[Shared people cannot be modified] {0}
+WorldBorder.Common.OutOfBorder=Has beyond the world border
+General.BedrockLog.ServerStartedDone=The server is started!

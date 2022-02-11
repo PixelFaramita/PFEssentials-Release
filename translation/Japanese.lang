@@ -957,3 +957,5 @@ Lands.Common.Tips.Permissions.ManageShared=管理シェアリング
 Lands.Common.Tips.Permissions.ManagePermission=権限を編集します
 Lands.Common.Tips.Permissions.ManageInfo=情報を変更します
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[共有人が変更できない] {0}
+WorldBorder.Common.OutOfBorder=世界の国境を超えています
+General.BedrockLog.ServerStartedDone=サーバーが起動しました！

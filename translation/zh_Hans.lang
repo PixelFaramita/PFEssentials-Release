@@ -957,3 +957,5 @@ Lands.Common.Tips.Permissions.ManageShared=管理共享
 Lands.Common.Tips.Permissions.ManagePermission=修改权限
 Lands.Common.Tips.Permissions.ManageInfo=修改信息
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[共享者无法修改] {0}
+WorldBorder.Common.OutOfBorder=已超出世界边界
+General.BedrockLog.ServerStartedDone=服务端启动完毕！耗时{0}秒。
