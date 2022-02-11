@@ -956,3 +956,7 @@ Lands.Common.Tips.Permissions.ManageShared=Распределение управ
 Lands.Common.Tips.Permissions.ManagePermission=Редактировать разрешение
 Lands.Common.Tips.Permissions.ManageInfo=Изменить информацию
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[Общие игроки не могут быть изменены] {0}
+General.BedrockLog.ServerStartedDone=Сервер начинается!
+WorldBorder.Common.OutOfBorder=Выходит за рамки мира
+LanguageSetting.Console.LanguageLoaded=Языковой файл Чтение успеха {0}, не удалось {1}
+LanguageSetting.Common.LanguageEditTranslationFormExitButton=Настройка перевода
