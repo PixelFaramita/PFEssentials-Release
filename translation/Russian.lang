@@ -1,13 +1,13 @@
 Main.LangId=Russian
 Main.LangDescription=Русский
 Main.LangAuthor=Kilivanchik and KRakEn056375
-Main.LangVersion=v0.0.6
+Main.LangVersion=v0.0.7
 Main.LangHelper=https://www.minebbs.com/resources/1716/
 General.Console.ProcessorCountTip1=У вас есть только один основной процессор (ЦП)
 General.Console.ProcessorCountTip2=Плагин интенсивен из-за многопоточного использования, рекомендуется работать в многоядерном сервере, чтобы получить лучшую производительность.
 General.Common.Dimension.Overworld=Верхний мир
-General.Common.Dimension.Nether=Ад
-General.Common.Dimension.TheEnd=Энд
+General.Common.Dimension.Nether=Нижний мир
+General.Common.Dimension.TheEnd=Край
 General.Common.ServerClosed=Сервер закрыт
 General.Common.Reload1=Файл конфигурации подключаемого модуля был успешно перезагружен.
 General.Common.Reload2=Для вступления в силу некоторых функций может потребоваться перезапуск
@@ -303,13 +303,13 @@ Tpa.Forms.TpaCheckAvaliableFailedT3Closed=Операция отменена
 Tpa.Forms.TpaCheckAvaliableFailedUrged=Вы попросили {3} обработать прошлый запрос ({1}=>{2})
 Tpa.Forms.TpaCheckAvaliableFailedUrgedTo={0} просит вас обработать прошлый запрос ({1}=>{2})
 Tpr.Commands.Description.Main=§r§eСлучайная передача
-Tpr.DimensionNotAllowed=Текущий размер не может быть выполнен, функция TPR доступна только в главном мире!
-Tpr.NotAllowed=Исполнение не удалось, попробуйте позже!
-Tpr.TprCompleted=Быстро передается в координату (x = {0:F1}, z = {1:F1}) успешно!
-Tpr.InCooldown=Текущее время охлаждения в настоящее время передается, пожалуйста, попробуйте еще раз после {0}
-Tpr.Completed=Случайная передача успешна!
-Tpr.LoadingChunk=§aBlock Load!
-Tpr.FindingBlock=§aИщете квадраты!
+Tpr.DimensionNotAllowed=Вы не можете использовать команду в этом мире, функция TPR доступна только в верхнем мире!
+Tpr.NotAllowed=Операция не удалось, попробуйте позже!
+Tpr.TprCompleted=Успешная телепортация на координаты (x = {0:F1}, z = {1:F1})
+Tpr.InCooldown=Вы слишком много раз использовали эту команду, пожалуйста, попробуйте еще раз после {0}сек.
+Tpr.Completed=Случайная телепортация успешна!
+Tpr.LoadingChunk=§aЗагрузка чанка!
+Tpr.FindingBlock=§aНайден блок!
 LLanguageSetting.Console.LanguageLoaded=Языковый файл успешно прочитан {0} Не удалось прочитать:{1}
 LanguageSetting.Console.LanguageLoadedTip=Файл завершения находится по адресу: {0}
 LanguageSetting.Console.LanguageLoadFailed=Ошибка чтения языкового файла: {0}
@@ -956,7 +956,7 @@ Lands.Common.Tips.Permissions.ManageShared=Распределение управ
 Lands.Common.Tips.Permissions.ManagePermission=Редактировать разрешение
 Lands.Common.Tips.Permissions.ManageInfo=Изменить информацию
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[Общие игроки не могут быть изменены] {0}
-General.BedrockLog.ServerStartedDone=Сервер начинается!
-WorldBorder.Common.OutOfBorder=Выходит за рамки мира
-LanguageSetting.Console.LanguageLoaded=Языковой файл Чтение успеха {0}, не удалось {1}
+General.BedrockLog.ServerStartedDone=Сервер запущен!
+WorldBorder.Common.OutOfBorder=Граница мира
+LanguageSetting.Console.LanguageLoaded=Успешно прочитаных языкофых файлов {0}, не удалось прочитать {1}
 LanguageSetting.Common.LanguageEditTranslationFormExitButton=Настройка перевода
