@@ -959,3 +959,6 @@ Lands.Common.Tips.Permissions.ManageInfo=تعديل المعلومات
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[لا يمكن تعديل الأشخاص المشتركين] {0}
 WorldBorder.Common.OutOfBorder=لديها وراء الحدود العالمية
 General.BedrockLog.ServerStartedDone=بدأ الخادم!
+General.Info.info6LL1=BDSliteloader النسخة: {0}
+General.Info.info6LL2=إصدار خادم BDS: {0}
+General.Info.info6LL3=إصدار بروتوكول شبكة الخدمة: {0}

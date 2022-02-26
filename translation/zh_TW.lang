@@ -959,3 +959,6 @@ Lands.Common.Tips.Permissions.ManageInfo=修改信息
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[共享者無法修改] {0}
 WorldBorder.Common.OutOfBorder=已超出世界邊界
 General.BedrockLog.ServerStartedDone=服務端啟動完畢！耗時{0}秒。
+General.Info.info6LL1=BDSLiteLoader版本:{0}
+General.Info.info6LL2=BDS服務端版本:{0}
+General.Info.info6LL3=服務端網絡協議版本:{0}

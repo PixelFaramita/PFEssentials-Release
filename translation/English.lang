@@ -958,3 +958,6 @@ Lands.Common.Tips.Permissions.ManageInfo=Modify information
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[Shared people cannot be modified] {0}
 WorldBorder.Common.OutOfBorder=Has beyond the world border
 General.BedrockLog.ServerStartedDone=The server is started!
+General.Info.info6LL1=BDSLITELOADER version: {0}
+General.Info.info6LL2=BDS server version: {0}
+General.Info.info6LL3=Service Network Protocol Version: {0}

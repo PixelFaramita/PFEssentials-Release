@@ -959,3 +959,6 @@ Lands.Common.Tips.Permissions.ManageInfo=情報を変更します
 Lands.Common.Tips.Permissions.SharedNoPermEdit=[共有人が変更できない] {0}
 WorldBorder.Common.OutOfBorder=世界の国境を超えています
 General.BedrockLog.ServerStartedDone=サーバーが起動しました！
+General.Info.info6LL1=BDSliteLoaderバージョン：{0}
+General.Info.info6LL2=BDSサーバーのバージョン：{0}
+General.Info.info6LL3=サービスネットワークプロトコルのバージョン：{0}

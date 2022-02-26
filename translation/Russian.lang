@@ -960,3 +960,6 @@ General.BedrockLog.ServerStartedDone=Сервер запущен!
 WorldBorder.Common.OutOfBorder=Граница мира
 LanguageSetting.Console.LanguageLoaded=Успешно прочитаных языкофых файлов {0}, не удалось прочитать {1}
 LanguageSetting.Common.LanguageEditTranslationFormExitButton=Настройка перевода
+General.Info.info6LL1=Версия BDSLiteLoader: {0}
+General.Info.info6LL2=Версия сервера BDS: {0}
+General.Info.info6LL3=Сервисный сетевой протокол версии: {0}
