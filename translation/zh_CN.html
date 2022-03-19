@@ -7,9 +7,12 @@
 <li><a translate="no">Main.LangAuthor=</a>littlegao233</li>
 <li><a translate="no">Main.LangVersion=</a>v0.0.1</li>
 <li><a translate="no">Main.LangHelper=</a>https://www.minebbs.com/resources/1716/</li>
+<li><a translate="no">General.Console.ProcessorCountTip1=</a>检测到运行环境仅有1个核心处理器（CPU）</li>
+<li><a translate="no">General.Console.ProcessorCountTip2=</a>插件因多线程使用密集，建议在多核服务器运行，以获得更好的体验</li>
 <li><a translate="no">General.Common.Dimension.Overworld=</a>主世界</li>
 <li><a translate="no">General.Common.Dimension.Nether=</a>地狱</li>
 <li><a translate="no">General.Common.Dimension.TheEnd=</a>末地</li>
+<li><a translate="no">General.Common.ServerClosed=</a>服务器已关闭</li>
 <li><a translate="no">General.Common.Reload1=</a>插件配置文件重载成功</li>
 <li><a translate="no">General.Common.Reload2=</a>部分功能可能需要重启才能生效</li>
 <li><a translate="no">General.Common.FormLoading=</a>表单加载中......<a translate="no">{0:P0}</a></li>
@@ -30,7 +33,7 @@
 <li><a translate="no">General.Info.info6=</a>当前BDSNetrunner兼容版本:<a translate="no">{0}</a></li>
 <li><a translate="no">General.Info.info7=</a>配置文件位于"[BDS目录]<a translate="no">{0}</a>"</li>
 <li><a translate="no">General.Info.info8=</a>控制台输入<a translate="no">{0}</a>打开插件快捷管理窗体</li>
-<li><a translate="no">General.Info.info9=</a></li>
+<li><a translate="no">General.Info.info9=</a>ul</li>
 <li><a translate="no">General.BedrockLog.LevelName=</a>存档名称：%s</li>
 <li><a translate="no">General.BedrockLog.StartingServer=</a>服务器启动中...</li>
 <li><a translate="no">General.BedrockLog.Version=</a>服务器版本：%s</li>
@@ -39,6 +42,10 @@
 <li><a translate="no">General.BedrockLog.Difficulty=</a>游戏难度：%d %s</li>
 <li><a translate="no">General.BedrockLog.Opening=</a>读取：%s</li>
 <li><a translate="no">General.BedrockLog.ServerStarted=</a>服务端启动完毕！</li>
+<li><a translate="no">General.BedrockLog.ServerStartedDone=</a>服务端启动完毕！耗时<a translate="no">{0}</a>秒。</li>
+<li><a translate="no">General.BedrockLog.RunningAutoCompaction=</a>存档自动压缩(Running AutoCompaction...)</li>
+<li><a translate="no">General.BedrockLog.IPv4Port=</a>服务器端口（IPv4）：<a translate="no">{0}</a></li>
+<li><a translate="no">General.BedrockLog.IPv6Port=</a>服务器端口（IPv6）：<a translate="no">{0}</a></li>
 <li><a translate="no">Home.Console.DataCreated=</a>创建Home数据 >>> <a translate="no">{0}</a></li>
 <li><a translate="no">Home.Console.DataLoaded=</a>读取Home数据 >>> <a translate="no">{0}</a></li>
 <li><a translate="no">Home.Operation.AddSuccess=</a>添加成功,Home名称<a translate="no">{0}</a>,维度<a translate="no">{1}</a>,坐标<a translate="no">{2}</a> <a translate="no">{3}</a> <a translate="no">{4}</a></li>
@@ -195,6 +202,7 @@
 <li><a translate="no">Back.Common.BackPerformTpCostSuccess=</a>花费 <a translate="no">{0}</a> 个币,开始返回死亡地点...</li>
 <li><a translate="no">Back.Common.BackPerformTpCostMoneyNotEnough=</a>币不够了,你只有 <a translate="no">{1}</a> 个币，需要 <a translate="no">{0}</a> 个币</li>
 <li><a translate="no">Back.Common.BackPerformTpCostCanceled=</a>back操作已取消</li>
+<li><a translate="no">WorldBorder.Common.OutOfBorder=</a>已超出世界边界</li>
 <li><a translate="no">Tpa.Console.DataCreated=</a>创建Tpa设置 >>> <a translate="no">{0}</a></li>
 <li><a translate="no">Tpa.Console.DataLoaded=</a>读取Tpa设置 >>> <a translate="no">{0}</a></li>
 <li><a translate="no">Tpa.Commands.Description.Main=</a>§r§7<destination: target> §e向目标玩家发送tpa请求</li>
@@ -241,9 +249,9 @@
 <li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSelectedResultTpahere=</a>Tpahere</li>
 <li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSelectedResultB=</a>黑名单</li>
 <li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSelectedResultW=</a>白名单</li>
-<li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSelectedResultAddSuccess=</a>已将<a translate="no">{0}</a>添加到<a translate="no">{1}</a><a translate="no">{2}</a></li>
-<li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSelectedResultDelSuccess=</a>已将<a translate="no">{0}</a>从<a translate="no">{1}</a><a translate="no">{2}</a>中删除</li>
-<li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSuccessTitle=</a><a translate="no">{0}</a><a translate="no">{1}</a>成功</li>
+<li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSelectedResultAddSuccess=</a>已将<a translate="no">{0}</a>添加到<a translate="no">{1}</a> <a translate="no">{2}</a></li>
+<li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSelectedResultDelSuccess=</a>已将<a translate="no">{0}</a>从<a translate="no">{1}</a> <a translate="no">{2}</a>中删除</li>
+<li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSuccessTitle=</a><a translate="no">{0}</a> <a translate="no">{1}</a>成功</li>
 <li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSuccessButtonContinue=</a>继续修改</li>
 <li><a translate="no">Tpa.ProfileSettings.EditingListFormPerSuccessButtonBack=</a>关闭菜单</li>
 <li><a translate="no">Tpa.ProfileSettings.EditingListFormClosed=</a>菜单已关闭</li>
@@ -304,11 +312,11 @@
 <li><a translate="no">Tpr.DimensionNotAllowed=</a>当前维度无法执行，Tpr功能仅在主世界可用！</li>
 <li><a translate="no">Tpr.NotAllowed=</a>执行失败，请稍后再试！</li>
 <li><a translate="no">Tpr.TprCompleted=</a>随机传送到坐标(x=<a translate="no">{0:F1}</a>,z=<a translate="no">{1:F1}</a>)成功！</li>
+<li><a translate="no">Tpr.InCooldown=</a>当前为tpr传送冷却时间，请<a translate="no">{0}</a>秒后再次尝试</li>
 <li><a translate="no">Tpr.Completed=</a>随机传送成功！</li>
 <li><a translate="no">Tpr.LoadingChunk=</a>§a区块加载中！</li>
 <li><a translate="no">Tpr.FindingBlock=</a>§a寻找方块中！</li>
 <li><a translate="no">LanguageSetting.Console.LanguageLoaded=</a>语言文件读取成功<a translate="no">{0}</a>个，失败<a translate="no">{1}</a>个</li>
-<li><a translate="no">LanguageSetting.Console.LanguageLoadedTip=</a>补全文件位于<a translate="no">{0}</a></li>
 <li><a translate="no">LanguageSetting.Console.LanguageLoadFailed=</a>语言文件读取出错 :<a translate="no">{0}</a> </li>
 <li><a translate="no">LanguageSetting.Console.LangPreferenceCreated=</a>创建语言设置 >>> <a translate="no">{0}</a></li>
 <li><a translate="no">LanguageSetting.Console.LangPreferenceReaded=</a>读取语言设置 <<< <a translate="no">{0}</a></li>
@@ -316,6 +324,7 @@
 <li><a translate="no">LanguageSetting.Common.LanguageEditMainFormTitle=</a>语言设置</li>
 <li><a translate="no">LanguageSetting.Common.LanguageEditMainFormContent=</a>当前语言：<a translate="no">{0}</a></li>
 <li><a translate="no">LanguageSetting.Common.LanguageEditMainFormEditButton=</a>修改语言</li>
+<li><a translate="no">LanguageSetting.Common.LanguageEditTranslationFormExitButton=</a>翻译设置</li>
 <li><a translate="no">LanguageSetting.Common.LanguageEditMainFormExitButton=</a>关闭</li>
 <li><a translate="no">LanguageSetting.Common.LanguageEditFormTitle=</a>修改语言</li>
 <li><a translate="no">LanguageSetting.Common.LanguageEditFormDropdownTip=</a>修改你的用户语言</li>
@@ -323,6 +332,7 @@
 <li><a translate="no">LanguageSetting.Common.LanguageEditFormBottomLabel=</a>点击提交即可提交修改</li>
 <li><a translate="no">LanguageSetting.Common.LanguageEditSuccess=</a>设置成功"<a translate="no">{0}</a>" - <a translate="no">{1}</a> (<a translate="no">{3}</a> by <a translate="no">{2}</a>)</li>
 <li><a translate="no">LanguageSetting.Common.LanguageEditFailed=</a>无效选项"<a translate="no">{0}</a>"</li>
+<li><a translate="no">LanguageSetting.Translation.EditConfigTitle=</a>翻译设置</li>
 <li><a translate="no">Money.Commands.Description.QueryMoney=</a>§r§e 查询拥有的Money</li>
 <li><a translate="no">Money.Commands.Description.Management=</a>§r§e 打开经济管理菜单</li>
 <li><a translate="no">Money.Commands.Description.MoneyMain=</a>§r§e 经济功能主命令</li>
@@ -356,7 +366,7 @@
 <li><a translate="no">Money.Management.PayToOnlinePlayerInvokeInvalidValueButton1=</a>重新选择</li>
 <li><a translate="no">Money.Management.PayToOnlinePlayerInvokeInvalidValueButton2=</a>关闭菜单</li>
 <li><a translate="no">Money.Management.PayToOnlinePlayerInsufficientBalanceTitle=</a>余额不足</li>
-<li><a translate="no">Money.Management.PayToOnlinePlayerInsufficientBalanceContent=</a>余额不足，无法转账，你只有<a translate="no">{0}</a><a translate="no"><a translate="no">{2}</a></a>，而该笔转账需要<a translate="no">{1}</a><a translate="no"><a translate="no">{2}</a></a></li>
+<li><a translate="no">Money.Management.PayToOnlinePlayerInsufficientBalanceContent=</a>余额不足，无法转账，你只有<a translate="no">{0}</a> <a translate="no"><a translate="no">{2}</a></a>，而该笔转账需要<a translate="no">{1}</a> <a translate="no"><a translate="no">{2}</a></a></li>
 <li><a translate="no">Money.Management.PayToOnlinePlayerInsufficientBalanceButton1=</a>重新输入</li>
 <li><a translate="no">Money.Management.PayToOnlinePlayerInsufficientBalanceButton2=</a>关闭菜单</li>
 <li><a translate="no">Money.Management.PayToOnlinePlayerCanceled=</a>转账已取消!</li>
@@ -364,7 +374,7 @@
 <li><a translate="no">Money.Management.PayToOnlinePlayerReceived=</a>收到转账！(<a translate="no">{0}</a>向你转账了 <a translate="no">{2}</a> <a translate="no">{3}</a>)</li>
 <li><a translate="no">Money.Management.PayToOnlineConfirmTitle=</a>确认转账</li>
 <li><a translate="no">Money.Management.PayToOnlineConfirmContent=</a>确认向<a translate="no">{1}</a>转账 <a translate="no">{2}</a> <a translate="no">{3}</a>\n转账后无法撤回哦！</li>
-<li><a translate="no">Money.Management.PayToOnlineConfirmButton1=</a>确认支出<a translate="no">{2}</a><a translate="no">{3}</a></li>
+<li><a translate="no">Money.Management.PayToOnlineConfirmButton1=</a>确认支出<a translate="no">{2}</a> <a translate="no">{3}</a></li>
 <li><a translate="no">Money.Management.PayToOnlineConfirmButton2=</a>取消转账</li>
 <li><a translate="no">Money.Management.PayToOfflinePlayerTitle=</a>转账参数</li>
 <li><a translate="no">Money.Management.PayToOfflinePlayerDropdown=</a>选择目标玩家或在下方输入玩家名:</li>
@@ -386,7 +396,7 @@
 <li><a translate="no">Money.Management.PayToOfflinePlayerCannotFindButton2=</a>取消转账</li>
 <li><a translate="no">Money.Management.PayToOfflineConfirmTitle=</a>确认转账</li>
 <li><a translate="no">Money.Management.PayToOfflineConfirmContent=</a>确认向<a translate="no">{1}</a>转账 <a translate="no">{2}</a> <a translate="no">{3}</a>\n转账后无法撤回哦！</li>
-<li><a translate="no">Money.Management.PayToOfflineConfirmButton1=</a>确认支出<a translate="no">{2}</a><a translate="no">{3}</a></li>
+<li><a translate="no">Money.Management.PayToOfflineConfirmButton1=</a>确认支出<a translate="no">{2}</a> <a translate="no">{3}</a></li>
 <li><a translate="no">Money.Management.PayToOfflineConfirmButton2=</a>取消转账</li>
 <li><a translate="no">Money.Management.PayToOfflinePlayerInvokeInvalidValueTitle=</a>转账失败</li>
 <li><a translate="no">Money.Management.PayToOfflinePlayerInvokeInvalidValueContent=</a>转账数值无效(无效的<a translate="no">{0}</a>)</li>
@@ -446,6 +456,13 @@
 <li><a translate="no">ChatEx.Console.DataCreated=</a>创建ChatEx数据 >>> <a translate="no">{0}</a></li>
 <li><a translate="no">ChatEx.Console.DataLoaded=</a>读取ChatEx数据 >>> <a translate="no">{0}</a></li>
 <li><a translate="no">ChatEx.Commands.Description.main=</a>§r§a聊天增强主菜单</li>
+<li><a translate="no">ChatEx.Commands.Description.SetStart=</a>§r§a设置指定玩家的聊天前缀</li>
+<li><a translate="no">ChatEx.Commands.Description.SetEnd=</a>§r§a设置指定玩家的聊天后缀</li>
+<li><a translate="no">ChatEx.Commands.Description.SetName=</a>§r§a设置指定玩家的聊天名称</li>
+<li><a translate="no">ChatEx.Commands.Description.SetNick=</a>§r§a设置指定玩家的聊天称号</li>
+<li><a translate="no">ChatEx.Commands.ParametersLack=</a>参数不足，格式/chat <setname|setnick|setstart|setend> <玩家ID> <值></li>
+<li><a translate="no">ChatEx.Commands.InvalidOperation=</a>无效的操作"<a translate="no">{0}</a>"，格式/chat <setname|setnick|setstart|setend> <玩家ID> <值></li>
+<li><a translate="no">ChatEx.Commands.UnknownPlayer=</a>未找到玩家"<a translate="no">{0}</a>"</li>
 <li><a translate="no">ChatEx.Common.NickName=</a>玩家称号</li>
 <li><a translate="no">ChatEx.Common.FakeName=</a>聊天名称</li>
 <li><a translate="no">ChatEx.Common.MsgStart=</a>消息前缀</li>
@@ -497,8 +514,15 @@
 <li><a translate="no">Lands.Commands.Tips.PurchaseEnclosureOverSize3D=</a>领地范围(<a translate="no">{0}</a>block)超出三维圈地设定的最大尺寸(<a translate="no">{1}</a>block)</li>
 <li><a translate="no">Lands.Commands.Tips.SetEnclosureASuccess=</a>成功设置点A (<a translate="no">{0}</a>,<a translate="no">{1}</a>,<a translate="no">{2}</a>:<a translate="no">{3}</a>)，破后方块设置点B</li>
 <li><a translate="no">Lands.Commands.Tips.SetEnclosureBSuccess=</a>成功设置点B (<a translate="no">{0}</a>,<a translate="no">{1}</a>,<a translate="no">{2}</a>:<a translate="no">{3}</a>)，/land命令查看信息</li>
-<li><a translate="no">Lands.Commands.Tips.Purchased=</a>领地购买成功，花费<a translate="no">{0}</a><a translate="no">{1}</a>！</li>
-<li><a translate="no">Lands.Commands.Tips.MoneyInsufficient=</a><a translate="no"><a translate="no"><a translate="no">{2}</a></a></a>不足，需要<a translate="no">{0}</a><a translate="no"><a translate="no"><a translate="no">{2}</a></a></a>，你只有<a translate="no">{1}</a><a translate="no"><a translate="no"><a translate="no">{2}</a></a></a>！</li>
+<li><a translate="no">Lands.Commands.Tips.Purchased=</a>领地购买成功，花费<a translate="no">{0}</a> <a translate="no">{1}</a>！</li>
+<li><a translate="no">Lands.Commands.Tips.PurchasedSetAnchor=</a>已设置默认的领地传送点(<a translate="no">{0}</a> <a translate="no">{1}</a> <a translate="no">{2}</a>)！</li>
+<li><a translate="no">Lands.Commands.Tips.MoneyInsufficient=</a><a translate="no"><a translate="no"><a translate="no">{2}</a></a></a>不足，需要<a translate="no">{0}</a> <a translate="no"><a translate="no"><a translate="no">{2}</a></a></a>，你只有<a translate="no">{1}</a> <a translate="no"><a translate="no"><a translate="no">{2}</a></a></a>！</li>
+<li><a translate="no">Lands.Commands.Tips.SetLandInfoResultSuccessTitle=</a>设置成功</li>
+<li><a translate="no">Lands.Commands.Tips.SetLandInfoResultSuccessContent=</a>设置成功 \n <a translate="no">{0}</a></li>
+<li><a translate="no">Lands.Commands.Tips.SetLandInfoResultFailedTitle=</a>设置失败</li>
+<li><a translate="no">Lands.Commands.Tips.SetLandInfoResultFailedContent=</a>设置失败 \n <a translate="no">{0}</a></li>
+<li><a translate="no">Lands.Commands.Tips.SetLandInfoResultBack=</a>返回</li>
+<li><a translate="no">Lands.Commands.Tips.SetLandInfoResultCancel=</a>关闭</li>
 <li><a translate="no">Lands.Commands.Tips.InvalidLandName=</a>输入的领地名称无效！</li>
 <li><a translate="no">Lands.Commands.Tips.LandNameNoChange=</a>输入的领地名称与之前的相同！</li>
 <li><a translate="no">Lands.Commands.Tips.LandNameEdited=</a>领地名称修改成功！（<a translate="no">{0}</a>=><a translate="no">{1}</a>）</li>
@@ -509,11 +533,15 @@
 <li><a translate="no">Lands.Commands.Tips.LandMessageEdited=</a>领地留言修改成功！（<a translate="no">{0}</a>=><a translate="no">{1}</a>）</li>
 <li><a translate="no">Lands.Commands.Tips.LandMessageRemoveNotSet=</a>领地留言未设置，无法移除！</li>
 <li><a translate="no">Lands.Commands.Tips.LandMessageRemoved=</a>领地留言移除成功！（<a translate="no">{0}</a>=>空）</li>
+<li><a translate="no">Lands.Commands.Tips.PermFuncEnabled=</a>设置领地<a translate="no">{0}</a>的<a translate="no">{1}</a>功能为<a translate="no">{2}</a></li>
 <li><a translate="no">Lands.Commands.Tips.PermPublicSet=</a>设置领地<a translate="no">{0}</a>的<a translate="no">{1}</a>公共权限为<a translate="no">{2}</a></li>
 <li><a translate="no">Lands.Commands.Tips.PermSharedDefaultSet=</a>设置领地<a translate="no">{0}</a>的共享玩家的<a translate="no">{1}</a>默认权限为<a translate="no">{2}</a></li>
+<li><a translate="no">Lands.Commands.Tips.PermSharedDefaultSharedNoPermSet=</a>无权限修改共享领地<a translate="no">{0}</a>的共享玩家的<a translate="no">{1}</a>默认权限</li>
 <li><a translate="no">Lands.Commands.Tips.PermSharedSet=</a>设置领地<a translate="no">{0}</a>的共享玩家<a translate="no">{1}</a>的<a translate="no">{2}</a>权限为<a translate="no">{3}</a></li>
+<li><a translate="no">Lands.Commands.Tips.PermSharedNoPermSet=</a>无权限修改共享领地<a translate="no">{0}</a>的<a translate="no">{1}</a>权限</li>
 <li><a translate="no">Lands.Commands.Tips.PermAllowed=</a>允许</li>
 <li><a translate="no">Lands.Commands.Tips.PermForbidden=</a>禁止</li>
+<li><a translate="no">Lands.Commands.Tips.PermDefault=</a>默认[<a translate="no">{0}</a>]</li>
 <li><a translate="no">Lands.Commands.Tips.PermEnabled=</a>开启</li>
 <li><a translate="no">Lands.Commands.Tips.PermDisabled=</a>关闭</li>
 <li><a translate="no">Lands.Commands.Tips.NoPermSet=</a>未修改权限设置</li>
@@ -526,6 +554,8 @@
 <li><a translate="no">Lands.Commands.Tips.GiveLandToPlayerMaximumOwnLands=</a>无法将领地<a translate="no">{0}</a>转移给<a translate="no">{2}</a>，对方领地数量已到达上限(<a translate="no">{4}</a>)</li>
 <li><a translate="no">Lands.Commands.Tips.GiveLandToPlayerReceiveSuccess=</a><a translate="no">{1}</a>已将领地<a translate="no">{0}</a>转移给你</li>
 <li><a translate="no">Lands.Commands.Tips.SellLandSuccess=</a>删除领地<a translate="no">{0}</a>成功，返还 <a translate="no">{1}</a> <a translate="no">{2}</a></li>
+<li><a translate="no">Lands.Commands.Tips.SetLandTpPosSuccess=</a>成功设置领地<a translate="no">{0}</a>的传送点为(x=<a translate="no">{1:F1}</a>,y=<a translate="no">{2:F1}</a>,z=<a translate="no">{3:F1}</a>)</li>
+<li><a translate="no">Lands.Commands.Tips.GotoLandTpSuccess=</a>前往领地<a translate="no">{0}</a>(x=<a translate="no">{1:F1}</a>,y=<a translate="no">{2:F1}</a>,z=<a translate="no">{3:F1}</a>)</li>
 <li><a translate="no">Lands.Commands.Tips.DeleteRLandSuccess=</a>返还领地<a translate="no">{0}</a>成功，返还玩家<a translate="no">{1}</a> <a translate="no">{2}</a> <a translate="no">{3}</a></li>
 <li><a translate="no">Lands.Commands.Tips.DeleteLandSuccess=</a>删除领地<a translate="no">{0}</a>成功</li>
 <li><a translate="no">Lands.Commands.Tips.AddedToSharedList=</a>成功添加玩家<a translate="no">{0}</a>到领地<a translate="no">{1}</a>的共享列表</li>
@@ -558,7 +588,7 @@
 <li><a translate="no">Lands.Common.Forms.BeforePurchaseMainButtonCancel=</a>继续框选范围</li>
 <li><a translate="no">Lands.Common.Forms.PurchaseMainTitle=</a>确认购买</li>
 <li><a translate="no">Lands.Common.Forms.PurchaseMainContent=</a>选定<a translate="no">{0}</a>区域：\n  起点： <a translate="no">{1}</a>\n  终点： <a translate="no">{2}</a>\n  大小： <a translate="no">{3}</a>\n  维度： <a translate="no">{4}</a>\n  价格： <a translate="no">{5}</a> × <a translate="no">{6}</a> = <a translate="no">{7}</a> <a translate="no">{8}</a>\n<a translate="no">{9}</a></li>
-<li><a translate="no">Lands.Common.Forms.PurchaseMainButtonConfirm=</a>支付<a translate="no">{0}</a><a translate="no">{1}</a>购买</li>
+<li><a translate="no">Lands.Common.Forms.PurchaseMainButtonConfirm=</a>支付<a translate="no">{0}</a> <a translate="no">{1}</a>购买</li>
 <li><a translate="no">Lands.Common.Forms.PurchaseMainButtonBackToMain=</a>返回领地主菜单</li>
 <li><a translate="no">Lands.Common.Forms.PurchaseExit=</a>取消操作，继续圈地</li>
 <li><a translate="no">Lands.Common.Forms.PurchaseMainButtonCancel=</a>取消购买</li>
@@ -606,12 +636,14 @@
 <li><a translate="no">Lands.Common.Forms.OPManageLandConfirmDeleteRButton2=</a>返回</li>
 <li><a translate="no">Lands.Common.Forms.ManageMainNoLandTitle=</a>空空如也</li>
 <li><a translate="no">Lands.Common.Forms.ManageMainNoLandContent=</a>你还没有任何领地，快去创建领地吧！</li>
+<li><a translate="no">Lands.Common.Forms.ManageMainNoLandSharedContent=</a>你还没有被共享的领地，快让你的好友共享领地吧！</li>
 <li><a translate="no">Lands.Common.Forms.ManageMainNoLandConfirm=</a>返回主菜单</li>
 <li><a translate="no">Lands.Common.Forms.ManageMainNoLandCancel=</a>关闭</li>
 <li><a translate="no">Lands.Common.Forms.ManageMainTitle=</a>领地管理主菜单</li>
 <li><a translate="no">Lands.Common.Forms.ManageMainContent=</a>选择领地进行管理：</li>
 <li><a translate="no">Lands.Common.Forms.ManageMainCurrent=</a>选择当前所在领地</li>
 <li><a translate="no">Lands.Common.Forms.ManageMainFromAll=</a>从拥有的领地选择</li>
+<li><a translate="no">Lands.Common.Forms.ManageMainFromShared=</a>从共享的领地选择</li>
 <li><a translate="no">Lands.Common.Forms.ManageCurrentNoLandTitle=</a>无效操作</li>
 <li><a translate="no">Lands.Common.Forms.ManageCurrentNoLandContent=</a>你的脚下没有任何领地！进入领地后才能选择当前所在领地管理！</li>
 <li><a translate="no">Lands.Common.Forms.ManageCurrentNoLandConfirm=</a>返回领地管理主菜单</li>
@@ -620,15 +652,28 @@
 <li><a translate="no">Lands.Common.Forms.ManageCurrentLandInvalidContent=</a>当前位于<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)，你不是这个领地的主人，无法管理该领地！</li>
 <li><a translate="no">Lands.Common.Forms.ManageCurrentLandInvalidConfirm=</a>返回领地管理主菜单</li>
 <li><a translate="no">Lands.Common.Forms.ManageCurrentLandInvalidCancel=</a>关闭</li>
+<li><a translate="no">Lands.Common.Forms.ManageCurrentLandNoPermTitle=</a>无权限</li>
+<li><a translate="no">Lands.Common.Forms.ManageCurrentLandNoPermContent=</a>当前位于<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)，你没有该领地的<a translate="no">{2}</a>权限！</li>
+<li><a translate="no">Lands.Common.Forms.ManageCurrentLandNoPermConfirm=</a>返回上级菜单</li>
+<li><a translate="no">Lands.Common.Forms.ManageCurrentLandNoPermCancel=</a>关闭</li>
+<li><a translate="no">Lands.Common.Forms.Teleport=</a>领地传送</li>
+<li><a translate="no">Lands.Common.Forms.SetTeleport=</a>领地传送</li>
+<li><a translate="no">Lands.Common.Forms.ManageShared=</a>管理共享</li>
+<li><a translate="no">Lands.Common.Forms.ManagePermission=</a>修改权限</li>
+<li><a translate="no">Lands.Common.Forms.ManageInfo=</a>修改信息</li>
 <li><a translate="no">Lands.Common.Forms.ManageFromAllTitle=</a>选择领地</li>
 <li><a translate="no">Lands.Common.Forms.ManageFromAllContent=</a>选择你的一个领地进行管理</li>
 <li><a translate="no">Lands.Common.Forms.ManageFromAllItem=</a><a translate="no">{0}</a>\n<a translate="no">{1}</a> <a translate="no">{{{2}</a>,<a translate="no">{3}</a>,<a translate="no">{4}</a>}},<a translate="no">{{{5}</a>,<a translate="no">{6}</a>,<a translate="no">{7}</a>}}</li>
+<li><a translate="no">Lands.Common.Forms.ManageFromSharedTitle=</a>选择领地</li>
+<li><a translate="no">Lands.Common.Forms.ManageFromSharedContent=</a>选择你的一个共享领地进行管理</li>
+<li><a translate="no">Lands.Common.Forms.ManageFromSharedItem=</a><a translate="no">{0}</a>\n<a translate="no">{1}</a> <a translate="no">{{{2}</a>,<a translate="no">{3}</a>,<a translate="no">{4}</a>}},<a translate="no">{{{5}</a>,<a translate="no">{6}</a>,<a translate="no">{7}</a>}}</li>
 <li><a translate="no">Lands.Common.Forms.ManageLandMainTitle=</a>管理<a translate="no">{0}</a></li>
 <li><a translate="no">Lands.Common.Forms.ManageLandMainContent=</a>正在管理：<a translate="no">{0}</a>\n位于： <a translate="no">{1}</a> <a translate="no">{{{2}</a>,<a translate="no">{3}</a>,<a translate="no">{4}</a>}},<a translate="no">{{{5}</a>,<a translate="no">{6}</a>,<a translate="no">{7}</a>}}\n留言： <a translate="no">{8}</a></li>
 <li><a translate="no">Lands.Common.Forms.ManageLandMainSetTip=</a>设置领地提示</li>
 <li><a translate="no">Lands.Common.Forms.ManageLandMainSetPerm=</a>管理领地权限</li>
 <li><a translate="no">Lands.Common.Forms.ManageLandMainSharedPlayers=</a>管理共享玩家</li>
 <li><a translate="no">Lands.Common.Forms.ManageLandMainTransfer=</a>领地转移</li>
+<li><a translate="no">Lands.Common.Forms.ManageLandMainTeleport=</a>领地传送</li>
 <li><a translate="no">Lands.Common.Forms.ManageLandMainQuit=</a>关闭菜单</li>
 <li><a translate="no">Lands.Common.Forms.ManageLandTipTitle=</a>领地管理主菜单</li>
 <li><a translate="no">Lands.Common.Forms.ManageLandTipContent=</a>管理领地提示信息：\n  位于： <a translate="no">{0}</a> <a translate="no">{{{1}</a>,<a translate="no">{2}</a>,<a translate="no">{3}</a>}},<a translate="no">{{{4}</a>,<a translate="no">{5}</a>,<a translate="no">{6}</a>}}\n  名称： <a translate="no">{7}</a>  留言： <a translate="no">{8}</a></li>
@@ -691,13 +736,29 @@
 <li><a translate="no">Lands.Common.Forms.ManageSharedPlayersRemove=</a>移除共享玩家</li>
 <li><a translate="no">Lands.Common.Forms.ManageSharedPlayersSetPerm=</a>设定指定玩家的共享权限</li>
 <li><a translate="no">Lands.Common.Forms.ManageSharedAddPlayerTitle=</a>确认添加玩家</li>
-<li><a translate="no">Lands.Common.Forms.ManageSharedAddPlayerContent=</a>确认添加玩家</li>
-<li><a translate="no">Lands.Common.Forms.ManageSharedAddPlayerConfirm=</a>确认将玩家<a translate="no">{0}</a>添加到领地<a translate="no">{1}</a>的共享列表中?</li>
+<li><a translate="no">Lands.Common.Forms.ManageSharedAddPlayerContent=</a>确认将玩家<a translate="no">{0}</a>添加到领地<a translate="no">{1}</a>的共享列表中?</li>
+<li><a translate="no">Lands.Common.Forms.ManageSharedAddPlayerConfirm=</a>确认添加<a translate="no">{0}</a>到共享列表</li>
 <li><a translate="no">Lands.Common.Forms.ManageSharedAddPlayerCancel=</a>返回</li>
-<li><a translate="no">Lands.Common.Forms.ManageSharedRemovePlayerTitle=</a>确认添加玩家</li>
-<li><a translate="no">Lands.Common.Forms.ManageSharedRemovePlayerContent=</a>确认添加玩家</li>
-<li><a translate="no">Lands.Common.Forms.ManageSharedRemovePlayerConfirm=</a>确认将玩家<a translate="no">{0}</a>从领地<a translate="no">{1}</a>的共享列表中移除?</li>
+<li><a translate="no">Lands.Common.Forms.ManageSharedRemovePlayerTitle=</a>确认移除玩家</li>
+<li><a translate="no">Lands.Common.Forms.ManageSharedRemovePlayerContent=</a>确认将玩家<a translate="no">{0}</a>从领地<a translate="no">{1}</a>的共享列表中移除？</li>
+<li><a translate="no">Lands.Common.Forms.ManageSharedRemovePlayerConfirm=</a>确认移除<a translate="no">{0}</a>于共享列表</li>
 <li><a translate="no">Lands.Common.Forms.ManageSharedRemovePlayerCancel=</a>返回</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpConfirmGoT=</a>确认前往领地</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpConfirmGoC=</a>确认前往领地\n  位于： <a translate="no">{0}</a> <a translate="no">{{{1}</a>,<a translate="no">{2}</a>,<a translate="no">{3}</a>}},<a translate="no">{{{4}</a>,<a translate="no">{5}</a>,<a translate="no">{6}</a>}}\n  名称： <a translate="no">{7}</a>  留言： <a translate="no">{8}</a></li>
+<li><a translate="no">Lands.Common.Forms.ManageTpConfirmGoConfirm=</a>确认传送</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpConfirmGoBack=</a>返回</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpConfirmSetT=</a>确认设置传送点</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpConfirmSetC=</a>确认设置传送点为\n  x=<a translate="no">{9:F2}</a>\n  y=<a translate="no">{10:F2}</a>\n  z=<a translate="no">{11:F2}</a>\n  位于： <a translate="no">{0}</a> <a translate="no">{{{1}</a>,<a translate="no">{2}</a>,<a translate="no">{3}</a>}},<a translate="no">{{{4}</a>,<a translate="no">{5}</a>,<a translate="no">{6}</a>}}\n  名称： <a translate="no">{7}</a>  留言： <a translate="no">{8}</a></li>
+<li><a translate="no">Lands.Common.Forms.ManageTpConfirmSetConfirm=</a>确认设置传送点</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpConfirmSetBack=</a>返回</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpNotSetT=</a>领地尚未设置传送点</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpNotSetC=</a>领地尚未设置传送点\n  位于： <a translate="no">{0}</a> <a translate="no">{{{1}</a>,<a translate="no">{2}</a>,<a translate="no">{3}</a>}},<a translate="no">{{{4}</a>,<a translate="no">{5}</a>,<a translate="no">{6}</a>}}\n  名称： <a translate="no">{7}</a>  留言： <a translate="no">{8}</a></li>
+<li><a translate="no">Lands.Common.Forms.ManageTpNotSetClose=</a>关闭</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpNotSetBack=</a>返回</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpNotInLandT=</a>无法设置传送点</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpNotInLandC=</a>不在领地内，无法设置传送点\n  位于： <a translate="no">{0}</a> <a translate="no">{{{1}</a>,<a translate="no">{2}</a>,<a translate="no">{3}</a>}},<a translate="no">{{{4}</a>,<a translate="no">{5}</a>,<a translate="no">{6}</a>}}\n  名称： <a translate="no">{7}</a>  留言： <a translate="no">{8}</a></li>
+<li><a translate="no">Lands.Common.Forms.ManageTpNotInLandClose=</a>关闭</li>
+<li><a translate="no">Lands.Common.Forms.ManageTpNotInLandBack=</a>返回</li>
 <li><a translate="no">Lands.Common.Forms.SharedAddNoPlayerTitle=</a>无其他在线玩家</li>
 <li><a translate="no">Lands.Common.Forms.SharedAddNoPlayerContent=</a>无其他玩家在线，无法添加共享\n请在想要共享的玩家在线时添加</li>
 <li><a translate="no">Lands.Common.Forms.SharedAddNoPlayerButton1=</a>返回上级菜单</li>
@@ -710,6 +771,15 @@
 <li><a translate="no">Lands.Common.Forms.ManageLandTransferContent=</a>选中领地信息：\n  位于： <a translate="no">{0}</a> <a translate="no">{{{1}</a>,<a translate="no">{2}</a>,<a translate="no">{3}</a>}},<a translate="no">{{{4}</a>,<a translate="no">{5}</a>,<a translate="no">{6}</a>}}\n  名称： <a translate="no">{7}</a>  留言： <a translate="no">{8}</a>\n选择操作：</li>
 <li><a translate="no">Lands.Common.Forms.ManageLandTransferGive=</a>赠送领地</li>
 <li><a translate="no">Lands.Common.Forms.ManageLandTransferRecycle=</a>回收领地</li>
+<li><a translate="no">Lands.Common.Forms.ManageLandTeleportTitle=</a>领地传送主菜单</li>
+<li><a translate="no">Lands.Common.Forms.ManageLandTeleportContent=</a>选中领地信息：\n  位于： <a translate="no">{0}</a> <a translate="no">{{{1}</a>,<a translate="no">{2}</a>,<a translate="no">{3}</a>}},<a translate="no">{{{4}</a>,<a translate="no">{5}</a>,<a translate="no">{6}</a>}}\n  名称： <a translate="no">{7}</a>  留言： <a translate="no">{8}</a>\n选择操作：</li>
+<li><a translate="no">Lands.Common.Forms.ManageLandTeleportGo=</a>前往领地</li>
+<li><a translate="no">Lands.Common.Forms.ManageLandTeleportSet=</a>设置锚点</li>
+<li><a translate="no">Lands.Common.Forms.ManageLandTeleportQuit=</a>关闭</li>
+<li><a translate="no">Lands.Common.Forms.ManageLandTeleportHasBeenDisabledT=</a>领地传送已被禁用</li>
+<li><a translate="no">Lands.Common.Forms.ManageLandTeleportHasBeenDisabledC=</a>领地传送功能已被管理员禁用</li>
+<li><a translate="no">Lands.Common.Forms.ManageLandTeleportHasBeenDisabledBack=</a>返回</li>
+<li><a translate="no">Lands.Common.Forms.ManageLandTeleportHasBeenDisabledClose=</a>关闭</li>
 <li><a translate="no">Lands.Common.Forms.TransferGiveConfirmTitle=</a>确认转移领地所有者</li>
 <li><a translate="no">Lands.Common.Forms.TransferGiveConfirmContent=</a>是否确认移交领地<a translate="no">{0}</a>给<a translate="no">{1}</a></li>
 <li><a translate="no">Lands.Common.Forms.TransferGiveConfirmButton1=</a>确认转移领地给<a translate="no">{1}</a></li>
@@ -720,23 +790,38 @@
 <li><a translate="no">Lands.Common.Forms.TransferRecycleConfirmButton2=</a>返回</li>
 <li><a translate="no">Lands.Common.Tips.PlayerEnterLandTip=</a>进入<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)</li>
 <li><a translate="no">Lands.Common.Tips.PlayerExitLandTip=</a>离开<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.FirstTipDecoration=</a>§c<a translate="no">{0}</a></li>
+<li><a translate="no">Lands.Common.Tips.Permissions.ForwardTipDecoration=</a>§7<a translate="no">{0}</a></li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermUseItem=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)使用物品</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermUseBucket=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)使用桶</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoPermUseItemFrame=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)取下展示框物品</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermOpenChest=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)打开箱子</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermContainerInteracted=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)使用容器</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoPermMobContainerInteracted=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)打开实体容器</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermActorInteracted=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)与实体交互</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermPickUpItem=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)拾取掉落物</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermDropItem=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)丢弃物品</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermPlaceBlock=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)放置方块</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoPermSpawnPowderSnowOnCauldronBlock=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)下方的炼药锅内溢出粉状雪桶</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermDestroyBlock=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)破坏方块</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermAttackPlayer=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)攻击玩家</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermAttackMob=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)攻击生物</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoPermArrowHit=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)使用箭射击</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoPermProjectileKnockback=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)使用冲击物产生破坏</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoPermFishingHookRetrieve=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)使用鱼竿勾起物体</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoPermFireworksInit=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)燃放烟花</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoPermThrowSplashPotion=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)投掷喷溅药水</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoPermOnSpawnAoECloud=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)投掷滞留药水</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.NoPermFarmLandDecay=</a>无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)破坏耕地</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.BlockFallIntoTip=</a><a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)禁止了方块落入</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.FireBurnDownTip=</a><a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)禁止了火焰蔓延</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.WitherBossDestroyTip=</a><a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)禁止方块破坏（凋零无法破坏方块）</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.GrowTreeTip=</a><a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)外围只能长出歪瓜裂枣的树哦</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.LevelExplodeTip=</a>在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)阻止了一次<a translate="no">{2}</a>级爆炸</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.LiquidFlowingTip=</a><a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)禁止流体流入</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.DispenserFromTip=</a><a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)禁止发射器掷入</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoDiePickPermTip=</a>由于无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)拾取掉落物,你的物品已被保留</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.NoDieDropPermTip=</a>由于无权限在<a translate="no">{0}</a>的领地(<a translate="no">{1}</a>)丢弃物品,你的物品已被保留</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.UseItem=</a>使用物品</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.UseBucket=</a>使用桶</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.OpenChest=</a>打开箱子</li>
@@ -749,15 +834,21 @@
 <li><a translate="no">Lands.Common.Tips.Permissions.AttackPlayer=</a>攻击玩家</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.AttackMob=</a>攻击生物</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.FarmLandDecay=</a>破坏耕地</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.UseItemFrame=</a>取下展示框物品</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.LevelExplode=</a>领地内防爆</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.LiquidFlowInto=</a>流体流入(发射器掷入)拦截</li>
 <li><a translate="no">Lands.Common.Tips.Permissions.FireBurnDown=</a>方块燃烧(蔓延)拦截</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.BlockFallInto=</a>方块落入拦截</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.Teleport=</a>领地传送</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.SetTeleport=</a>设置锚点</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.ManageShared=</a>管理共享</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.ManagePermission=</a>修改权限</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.ManageInfo=</a>修改信息</li>
+<li><a translate="no">Lands.Common.Tips.Permissions.SharedNoPermEdit=</a>[共享者无法修改] <a translate="no">{0}</a></li>
 <li><a translate="no">Lands.Common.Money.BuyALand=</a>购买领地<a translate="no">{0}</a></li>
 <li><a translate="no">Lands.Common.Money.RecycleALand=</a>回收领地<a translate="no">{0}</a></li>
 <li><a translate="no">Lands.Common.Money.DeleteRALand=</a>退还领地<a translate="no">{0}</a>(操作者<a translate="no">{1}</a>)</li>
 <li><a translate="no">Lands.Common.LandGetError=</a>获取领地时遇到错误，可能是由于领地刷新造成的！</li>
-<li><a translate="no">Notice.Console.DataCreated=</a>创建Notice数据 >>> <a translate="no">{0}</a></li>
-<li><a translate="no">Notice.Console.DataLoaded=</a>读取Notice数据 >>> <a translate="no">{0}</a></li>
 <li><a translate="no">Notice.Commands.Description.main=</a>§r§e查看服务器公告</li>
 <li><a translate="no">Notice.Commands.Description.edit=</a>§r§eOP快速编辑服务器公告</li>
 <li><a translate="no">Notice.Forms.CloseForm=</a>关闭</li>
@@ -780,5 +871,96 @@
 <li><a translate="no">Notice.Forms.EditContentAfterSubmitActionUndo=</a>撤销本次更改</li>
 <li><a translate="no">Notice.Forms.EditContentFormTitle=</a>编辑公告内容</li>
 <li><a translate="no">Notice.Forms.EditContentSaved=</a>公告内容已保存</li>
+<li><a translate="no">Menu.Forms.NoPermissionUseButtonTitle=</a>无权限</li>
+<li><a translate="no">Menu.Forms.NoPermissionUseButtonContent=</a>无权限使用此按钮</li>
+<li><a translate="no">Menu.Forms.NoPermissionUseButtonBack=</a>返回当前菜单</li>
+<li><a translate="no">Menu.Forms.NoPermissionUseButtonClose=</a>关闭</li>
+<li><a translate="no">Menu.Forms.ButtonCostMoneyTitle=</a>需要花费<a translate="no">{0}</a></li>
+<li><a translate="no">Menu.Forms.ButtonCostMoneyContent=</a>使用此按钮需要花费 <a translate="no">{0}</a> <a translate="no"><a translate="no">{1}</a></a>\n[提示] 你拥有 <a translate="no">{2}</a> <a translate="no"><a translate="no">{1}</a></a></li>
+<li><a translate="no">Menu.Forms.ButtonCostMoneyConfirm=</a>确认花费 <a translate="no">{0}</a> <a translate="no">{1}</a></li>
+<li><a translate="no">Menu.Forms.ButtonCostMoneyBack=</a>返回</li>
+<li><a translate="no">Menu.Forms.ButtonNoEnoughMoneyTitle=</a><a translate="no">{0}</a>不足</li>
+<li><a translate="no">Menu.Forms.ButtonNoEnoughMoneyContent=</a>你只有 <a translate="no">{2}</a> <a translate="no"><a translate="no">{1}</a></a> 无法使用此按钮\n需要花费 <a translate="no">{0}</a> <a translate="no"><a translate="no">{1}</a></a> 才能使用此按钮</li>
+<li><a translate="no">Menu.Forms.ButtonNoEnoughMoneyClose=</a>关闭</li>
+<li><a translate="no">Menu.Forms.ButtonNoEnoughMoneyBack=</a>返回</li>
+<li><a translate="no">Menu.Forms.NoPermissionOpenMenuTitle=</a>无权限</li>
+<li><a translate="no">Menu.Forms.NoPermissionOpenMenuContent=</a>无权限打开此菜单</li>
+<li><a translate="no">Menu.Forms.NoPermissionOpenMenuBack=</a>返回当前菜单</li>
+<li><a translate="no">Menu.Forms.NoPermissionOpenMenuClose=</a>关闭</li>
+<li><a translate="no">Menu.Forms.FormMissMatchTitle=</a>未知菜单</li>
+<li><a translate="no">Menu.Forms.FormMissMatchContent=</a>配置文件未找到定义的菜单<a translate="no">{0}</a></li>
+<li><a translate="no">Menu.Forms.FormMissMatchBack=</a>返回当前菜单</li>
+<li><a translate="no">Menu.Forms.FormMissMatchClose=</a>关闭</li>
+<li><a translate="no">Menu.Money.CostUsingButton=</a>使用<a translate="no">{0}</a>菜单<a translate="no">{1}</a>按钮</li>
+<li><a translate="no">Menu.Command.NoPermissionOpenMenu=</a>无权限打开此菜单</li>
+<li><a translate="no">PFShop.CommandsDescription.CommandReload=</a>§r§e商店信息重载</li>
+<li><a translate="no">PFShop.CommandsDescription.main=</a>§r§ePFShop菜单商店</li>
+<li><a translate="no">PFShop.RecycleButtons.recyclePreviousList=</a><==返回上级菜单</li>
+<li><a translate="no">PFShop.RecycleButtons.recycleSubList=</a>§l<a translate="no">{0}</a>\n§o子菜单==></li>
+<li><a translate="no">PFShop.RecycleButtons.recycleListItem=</a>#<a translate="no">{0}</a>§l<a translate="no">{1}</a>\n<a translate="no">{2:F2}</a> <a translate="no">{3}</a>/个</li>
+<li><a translate="no">PFShop.SellButtons.sellPreviousList=</a><==返回上级菜单</li>
+<li><a translate="no">PFShop.SellButtons.sellSubList=</a>§l<a translate="no">{0}</a>\n§o子菜单==></li>
+<li><a translate="no">PFShop.SellButtons.sellListItem=</a>#<a translate="no">{0}</a>§l<a translate="no">{1}</a>\n<a translate="no">{2:F2}</a> <a translate="no">{3}</a>/个</li>
+<li><a translate="no">PFShop.CommandNoPerm=</a>无权限执行该命令</li>
+<li><a translate="no">PFShop.CommandReloadSuccess=</a>商店信息已重载</li>
+<li><a translate="no">PFShop.ShopMainTitle=</a>商店</li>
+<li><a translate="no">PFShop.ShopMainContent=</a>来干点什么？</li>
+<li><a translate="no">PFShop.ShopMainSell=</a>出售商店</li>
+<li><a translate="no">PFShop.ShopMainRecycle=</a>回收商店</li>
+<li><a translate="no">PFShop.ShopMainPref=</a>偏好设置</li>
+<li><a translate="no">PFShop.CantFindConfig=</a>未找到配置文件</li>
+<li><a translate="no">PFShop.SaveDefaultConfigTo=</a>\n\t\t已将默认配置文件写入到\n\t\t<a translate="no">{0}</a>\n\t\t请自行修改！</li>
+<li><a translate="no">PFShop.CantFindLanguage=</a>未找到语言文件</li>
+<li><a translate="no">PFShop.SaveDefaultLanguageTo=</a>\n\t\t已将默认语言文件写入到\n\t\t<a translate="no">{0}</a>\n\t\t请自行修改！</li>
+<li><a translate="no">PFShop.LanguageFileLoadFailed=</a>语言文件加载失败，错误信息:<a translate="no">{0}</a></li>
+<li><a translate="no">PFShop.ClosedFormWithoutAction=</a>§7表单已关闭，未收到操作</li>
+<li><a translate="no">PFShop.sellMainTitle=</a>点击选择你想要购买的物品</li>
+<li><a translate="no">PFShop.sellMainContent=</a>点击选择</li>
+<li><a translate="no">PFShop.recycleMainTitle=</a>点击选择你想要回收的物品</li>
+<li><a translate="no">PFShop.recycleMainContent=</a>点击选择</li>
+<li><a translate="no">PFShop.InputSellDetailTitle=</a>输入购买数量</li>
+<li><a translate="no">PFShop.InputRecycleDetailTitle=</a>输入回收数量</li>
+<li><a translate="no">PFShop.InputSellDetailContentWhenUseSlider=</a>\n您已选择 <a translate="no">{0}</a>\n\n拖动滑块选择购买数量\n单价:<a translate="no">{1}</a>\n      §l§5X§r\n数量</li>
+<li><a translate="no">PFShop.InputSellDetailContentWhenUseTextbox=</a>\n您已选择 <a translate="no">{0}</a>\n\n在文本框中输入购买数量\n单价:<a translate="no">{1}</a>\n      §l§5X</li>
+<li><a translate="no">PFShop.InputSellDetailContentTextboxPlaceholder=</a>购买数量</li>
+<li><a translate="no">PFShop.InputSellDetailValueInvalid=</a>数值无效！</li>
+<li><a translate="no">PFShop.InputRecycleDetailContentWhenUseSlider=</a>\n您已选择 <a translate="no">{0}</a>\n\n拖动滑块选择回收数量\n单个收益: <a translate="no">{1}</a>\n         §l§5X§r\n 数  量 </li>
+<li><a translate="no">PFShop.InputRecycleDetailContentWhenUseTextbox=</a>\n您已选择 <a translate="no">{0}</a>\n\n在文本框中输入回收数量\n单个收益: <a translate="no">{1}</a>\n         §l§5X§r</li>
+<li><a translate="no">PFShop.InputRecycleDetailContentTextboxPlaceholder=</a>回收数量</li>
+<li><a translate="no">PFShop.InputRecycleDetailValueInvalid=</a>数值无效！</li>
+<li><a translate="no">PFShop.confirmSellTitle=</a>确认购买</li>
+<li><a translate="no">PFShop.confirmSellContent=</a>购买信息:\n  名称: <a translate="no">{0}</a>\n  数量: <a translate="no">{1}</a>\n  总价: <a translate="no">{2}</a>\n\n点击确认即可发送购买请求</li>
+<li><a translate="no">PFShop.confirmSellAccept=</a>确认购买</li>
+<li><a translate="no">PFShop.confirmSellCancel=</a>我再想想</li>
+<li><a translate="no">PFShop.confirmRecycleTitle=</a>确认回收</li>
+<li><a translate="no">PFShop.confirmRecycleContent=</a>回收信息:\n  名称: <a translate="no">{0}</a>\n  数量: <a translate="no">{1}</a>\n  收益: <a translate="no">{2}</a>\n\n点击确认即可发送回收请求</li>
+<li><a translate="no">PFShop.confirmRecycleAccept=</a>确认回收</li>
+<li><a translate="no">PFShop.confirmRecycleCancel=</a>返回</li>
+<li><a translate="no">PFShop.buySuccessfullyTitle=</a>§1购买成功</li>
+<li><a translate="no">PFShop.buySuccessfullyContent=</a>§b购买成功！\n§a已花费 <a translate="no">{0}</a> <a translate="no">{3}</a>\n购买 <a translate="no">{1}</a> 个 <a translate="no">{2}</a></li>
+<li><a translate="no">PFShop.buySuccessfullyButtonBack=</a>返回继续购物</li>
+<li><a translate="no">PFShop.buySuccessfullyButtonClose=</a>关闭</li>
+<li><a translate="no">PFShop.buyFailedTitle=</a>§4购买失败！</li>
+<li><a translate="no">PFShop.buyFailedContent=</a>§c购买失败！\n§e购买 <a translate="no">{1}</a> 个 <a translate="no">{2}</a> 需要 <a translate="no">{0}</a> <a translate="no"><a translate="no">{3}</a></a>\n你只有 <a translate="no">{4}</a> <a translate="no"><a translate="no">{3}</a></a></li>
+<li><a translate="no">PFShop.buyFailedButtonBack=</a>重新输入数量</li>
+<li><a translate="no">PFShop.buyFailedButtonClose=</a>关闭</li>
+<li><a translate="no">PFShop.recycleGetItemApiFailed=</a>API获取失败</li>
+<li><a translate="no">PFShop.recycleSuccessfullyTitle=</a>§1回收成功</li>
+<li><a translate="no">PFShop.recycleSuccessfullyContent=</a>§a回收成功！\n§e回收了 <a translate="no">{0}</a> 个 <a translate="no">{1}</a> 获得 <a translate="no">{2}</a> <a translate="no">{3}</a></li>
+<li><a translate="no">PFShop.recycleSuccessfullyButtonBack=</a>返回继续回收</li>
+<li><a translate="no">PFShop.recycleSuccessfullyButtonClose=</a>关闭</li>
+<li><a translate="no">PFShop.RecyclingFailedTitle=</a>§4回收失败！</li>
+<li><a translate="no">PFShop.RecyclingFailedContent=</a>§c回收失败！\n§e你背包里只有 <a translate="no">{3}</a> 个 <a translate="no">{1}</a></li>
+<li><a translate="no">PFShop.RecyclingFailedButtonBack=</a>重新输入数量</li>
+<li><a translate="no">PFShop.RecyclingFailedButtonClose=</a>关闭</li>
+<li><a translate="no">PFShop.preferenceMainTitle=</a>PF商店个人偏好设置</li>
+<li><a translate="no">PFShop.preferenceMainSellText=</a>●出售商店\n    数量输入方式</li>
+<li><a translate="no">PFShop.preferenceMainRecycleText=</a>●回收商店\n    数量输入方式</li>
+<li><a translate="no">PFShop.preferenceMainMaxValueTip=</a>    使用游标滑块输入时的最大值</li>
+<li><a translate="no">PFShop.preferenceMainUsingSlider=</a>游标滑块</li>
+<li><a translate="no">PFShop.preferenceMainUsingTextbox=</a>文本框手动输入</li>
+<li><a translate="no">PFShop.preferenceSaved=</a>个人设置保存成功</li>
+<li><a translate="no">PFShop.LLMoneyHistSell=</a>购买<a translate="no">{0}</a>个<a translate="no">{1}</a></li>
+<li><a translate="no">PFShop.LLMoneyHistRecycle=</a>回收<a translate="no">{0}</a>个<a translate="no">{1}</a></li>
 <li><a translate="no"></a></li>
 </body></html>
