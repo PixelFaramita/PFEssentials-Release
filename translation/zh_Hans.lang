@@ -962,3 +962,4 @@ General.BedrockLog.ServerStartedDone=服务端启动完毕！耗时{0}秒。
 General.Info.info6LL1=BDSLiteLoader版本:{0}
 General.Info.info6LL2=BDS服务端版本:{0}
 General.Info.info6LL3=服务端网络协议版本:{0}
+Lands.Common.Tips.Permissions.FireworksExplodeTip=在{0}的领地({1})阻止了一次烟花爆炸

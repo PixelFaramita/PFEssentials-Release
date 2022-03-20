@@ -958,3 +958,7 @@ PFShop.preferenceMainUsingTextbox=文本框手动输入
 PFShop.preferenceSaved=个人设置保存成功
 PFShop.LLMoneyHistSell=购买{0}个{1}
 PFShop.LLMoneyHistRecycle=回收{0}个{1}
+General.Info.info6LL1=BDSLiteLoader版本:{0}
+General.Info.info6LL2=BDS服务端版本:{0}
+General.Info.info6LL3=服务端网络协议版本:{0}
+Lands.Common.Tips.Permissions.FireworksExplodeTip=在{0}的领地({1})阻止了一次烟花爆炸

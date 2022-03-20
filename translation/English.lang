@@ -961,3 +961,4 @@ General.BedrockLog.ServerStartedDone=The server is started!
 General.Info.info6LL1=BDSLITELOADER version: {0}
 General.Info.info6LL2=BDS server version: {0}
 General.Info.info6LL3=Service Network Protocol Version: {0}
+Lands.Common.Tips.Permissions.FireworksExplodeTip=In the territory of {0}({1}) blocked a fireworks
