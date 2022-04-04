@@ -963,3 +963,4 @@ General.Info.info6LL1=BDSliteloader النسخة: {0}
 General.Info.info6LL2=إصدار خادم BDS: {0}
 General.Info.info6LL3=إصدار بروتوكول شبكة الخدمة: {0}
 Lands.Common.Tips.Permissions.FireworksExplodeTip=في إقليم {0}({1}) منعت الألعاب النارية
+Lands.Common.Tips.Permissions.NoPermOnHitLightning=لا يوجد حق في الزناد تأثير الرعد في إقليم {0}({1})

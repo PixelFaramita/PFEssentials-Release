@@ -963,3 +963,4 @@ General.Info.info6LL1=BDSLiteLoader版本:{0}
 General.Info.info6LL2=BDS服務端版本:{0}
 General.Info.info6LL3=服務端網絡協議版本:{0}
 Lands.Common.Tips.Permissions.FireworksExplodeTip=在{0}的領地({1})阻止了一次煙花爆炸
+Lands.Common.Tips.Permissions.NoPermOnHitLightning=無權限在{0}的領地({1})觸發引雷效果

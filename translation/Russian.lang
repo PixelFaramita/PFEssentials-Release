@@ -964,3 +964,4 @@ General.Info.info6LL1=Версия BDSLiteLoader: {0}
 General.Info.info6LL2=Версия сервера BDS: {0}
 General.Info.info6LL3=Сервисный сетевой протокол версии: {0}
 Lands.Common.Tips.Permissions.FireworksExplodeTip=На территории {0}({1}) заблокировали фейерверк
+Lands.Common.Tips.Permissions.NoPermOnHitLightning=Нет права, чтобы вызвать эффект гром на территории {0}({1})

@@ -962,3 +962,4 @@ PFShop.preferenceSaved=Osobysti nalashtuvannya Zberehty uspikh
 PFShop.LLMoneyHistSell=Kupyty {0} {1}
 PFShop.LLMoneyHistRecycle=Recycling {0} {1}
 Lands.Common.Tips.Permissions.FireworksExplodeTip=На території {0}({1}) заблоковано феєрверк
+Lands.Common.Tips.Permissions.NoPermOnHitLightning=Немає права тригерувати гробу ефект на території {0}({1})

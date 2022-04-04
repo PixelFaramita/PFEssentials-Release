@@ -963,3 +963,4 @@ General.Info.info6LL1=BDSliteLoaderバージョン：{0}
 General.Info.info6LL2=BDSサーバーのバージョン：{0}
 General.Info.info6LL3=サービスネットワークプロトコルのバージョン：{0}
 Lands.Common.Tips.Permissions.FireworksExplodeTip={0}の領土（{1}）は花火をブロックしました
+Lands.Common.Tips.Permissions.NoPermOnHitLightning={0}（{1}）に雷効果をトリガーする権利はありません
