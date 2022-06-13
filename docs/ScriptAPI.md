@@ -59,6 +59,67 @@
 <details>
 <summary><b>Lands<b></summary>
 
+>## Lands::CheckCubeHasLand
+>### 检查指定立方体区域(float)是否有领地
+>|  形参   | 类型  |
+>|  ----  | ----  |
+>| x1 | Single |
+>| y1 | Single |
+>| z1 | Single |
+>| x2 | Single |
+>| y2 | Single |
+>| z2 | Single |
+>| dimensionId | Integer |
+>返回值类型：Boolean;
+>```js
+>const Lands_CheckCubeHasLand = ll.import("PFAPI", "Lands_CheckCubeHasLand");
+>let result = Lands_CheckCubeHasLand(x1,y1,z1,x2,y2,z2,dimensionId);
+>```
+>---
+>## Lands::CheckCubeHasLandInt
+>### 检查指定立方体区域(int)是否有领地
+>|  形参   | 类型  |
+>|  ----  | ----  |
+>| x1 | Integer |
+>| y1 | Integer |
+>| z1 | Integer |
+>| x2 | Integer |
+>| y2 | Integer |
+>| z2 | Integer |
+>| dimensionId | Integer |
+>返回值类型：Boolean;
+>```js
+>const Lands_CheckCubeHasLandInt = ll.import("PFAPI", "Lands_CheckCubeHasLandInt");
+>let result = Lands_CheckCubeHasLandInt(x1,y1,z1,x2,y2,z2,dimensionId);
+>```
+>---
+>## Lands::CheckPosHasLand
+>### 检查指定坐标(float)是否有领地
+>|  形参   | 类型  |
+>|  ----  | ----  |
+>| x | Single |
+>| y | Single |
+>| z | Single |
+>| dimensionId | Integer |
+>返回值类型：Boolean;
+>```js
+>const Lands_CheckPosHasLand = ll.import("PFAPI", "Lands_CheckPosHasLand");
+>let result = Lands_CheckPosHasLand(x,y,z,dimensionId);
+>```
+>---
+>## Lands::CheckPosHasLandInt
+>### 检查指定坐标(int)是否有领地
+>|  形参   | 类型  |
+>|  ----  | ----  |
+>| x | Integer |
+>| y | Integer |
+>| z | Integer |
+>| dimensionId | Integer |
+>返回值类型：Boolean;
+>```js
+>const Lands_CheckPosHasLandInt = ll.import("PFAPI", "Lands_CheckPosHasLandInt");
+>let result = Lands_CheckPosHasLandInt(x,y,z,dimensionId);
+>```
 </details>
 <details>
 <summary><b>General<b></summary>
