@@ -38,6 +38,34 @@
 >```
 </details>
 <details>
+<summary><b>Command<b></summary>
+
+>## Command::SetCommandDisabled
+>### 设置命令禁用（仅限PFEssentials的命令）
+>|  形参   | 类型  |
+>|  ----  | ----  |
+>| playerName | String |
+>| cmd | String |
+>| feedback | String |
+>无返回值;
+>```js
+>const Command_SetCommandDisabled = ll.import("PFAPI", "Command_SetCommandDisabled");
+>Command_SetCommandDisabled(playerName,cmd,feedback);
+>```
+>---
+>## Command::SetCommandEnabled
+>### 设置命令启用（仅限PFEssentials的命令）
+>|  形参   | 类型  |
+>|  ----  | ----  |
+>| playerName | String |
+>| cmd | String |
+>无返回值;
+>```js
+>const Command_SetCommandEnabled = ll.import("PFAPI", "Command_SetCommandEnabled");
+>Command_SetCommandEnabled(playerName,cmd);
+>```
+</details>
+<details>
 <summary><b>Language<b></summary>
 
 >## Language::Translate
