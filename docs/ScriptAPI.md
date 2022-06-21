@@ -3,9 +3,12 @@
 <div align="right"><h4>Powered by LLRemoteCall</h1></div>
 </div>
 
+> - JavaScript
 >```js
 >let PFEssentials = ll.require("PFEssentials");
 >```
+> - C++
+> or
 >```C++
 >#include <RemoteCallAPI.h>
 >```
