@@ -665,6 +665,8 @@
 >```
 </details>
 <details><summary><b>All Api in JavaScript<b></summary>
+
+---
 <details><summary>JavaScript imports</summary>
 
 ``` JavaScript
@@ -730,6 +732,7 @@ const Money_Remove = ll.import("PFAPI", "Money_Remove");
 ```
 </details>
 
+---
 <details><summary>JavaScript object</summary>
 
 ``` JavaScript
@@ -808,6 +811,8 @@ const PFAPI = {
 
 ```
 </details>
+
+---
 </details>
 <details>
 <summary><b>All Api in C++<b></summary>
