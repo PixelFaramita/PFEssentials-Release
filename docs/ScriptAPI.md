@@ -7,8 +7,8 @@
 >```js
 >let PFEssentials = ll.require("PFEssentials");
 >```
-> - C++
 > or
+> - C++
 >```C++
 >#include <RemoteCallAPI.h>
 >```
