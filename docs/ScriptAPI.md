@@ -41,7 +41,7 @@
 <summary><b>Command<b></summary>
 
 >## Command::SetCommandDisabled
->### 设置命令禁用（仅限PFEssentials的命令）
+>### 设置命令禁用(可设置提示)
 >|  形参   | 类型  |
 >|  ----  | ----  |
 >| playerName | String |
@@ -54,7 +54,7 @@
 >```
 >---
 >## Command::SetCommandEnabled
->### 设置命令启用（仅限PFEssentials的命令）
+>### 设置命令启用
 >|  形参   | 类型  |
 >|  ----  | ----  |
 >| playerName | String |
