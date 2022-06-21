@@ -737,77 +737,77 @@ const Money_Remove = ll.import("PFAPI", "Money_Remove");
 
 ``` JavaScript
 const PFAPI = {
-	PFAPI : {
+	General : {
 		/** 设置全局配置文件（要求JSON字符串） 返回值类型：Boolean */
-		const SetConfig = ll.import("PFAPI", "General_SetConfig");
+		SetConfig : ll.import("PFAPI", "General_SetConfig"),
 		/** 获取全局配置文件（JSON字符串） 返回值类型：String */
-		const GetConfig = ll.import("PFAPI", "General_GetConfig");
+		GetConfig : ll.import("PFAPI", "General_GetConfig"),
 		/** 重新加载所有功能的配置文件 */
-		const Reload = ll.import("PFAPI", "General_Reload");
-	}
-	PFAPI : {
+		Reload : ll.import("PFAPI", "General_Reload"),
+	},
+	Command : {
 		/** 设置命令禁用(可设置提示) */
-		const SetCommandDisabled = ll.import("PFAPI", "Command_SetCommandDisabled");
+		SetCommandDisabled : ll.import("PFAPI", "Command_SetCommandDisabled"),
 		/** 设置命令启用 */
-		const SetCommandEnabled = ll.import("PFAPI", "Command_SetCommandEnabled");
-	}
-	PFAPI : {
+		SetCommandEnabled : ll.import("PFAPI", "Command_SetCommandEnabled"),
+	},
+	Language : {
 		/** 翻译 返回值类型：String */
-		const Translate = ll.import("PFAPI", "Language_Translate");
-	}
-	PFAPI : {
+		Translate : ll.import("PFAPI", "Language_Translate"),
+	},
+	ChatEx : {
 		/** 设置玩家昵称 */
-		const SetNickName = ll.import("PFAPI", "ChatEx_SetNickName");
+		SetNickName : ll.import("PFAPI", "ChatEx_SetNickName"),
 		/** 设置玩家聊天时的名字 */
-		const SetFakeName = ll.import("PFAPI", "ChatEx_SetFakeName");
+		SetFakeName : ll.import("PFAPI", "ChatEx_SetFakeName"),
 		/** 设置玩家聊天消息后缀 */
-		const SetEnd = ll.import("PFAPI", "ChatEx_SetEnd");
+		SetEnd : ll.import("PFAPI", "ChatEx_SetEnd"),
 		/** 设置玩家聊天消息前缀 */
-		const SetStart = ll.import("PFAPI", "ChatEx_SetStart");
-	}
-	PFAPI : {
+		SetStart : ll.import("PFAPI", "ChatEx_SetStart"),
+	},
+	Lands : {
 		/** 检查指定立方体区域(float)是否有领地 返回值类型：Boolean */
-		const CheckCubeHasLand = ll.import("PFAPI", "Lands_CheckCubeHasLand");
+		CheckCubeHasLand : ll.import("PFAPI", "Lands_CheckCubeHasLand"),
 		/** 检查指定立方体区域(int)是否有领地 返回值类型：Boolean */
-		const CheckCubeHasLandInt = ll.import("PFAPI", "Lands_CheckCubeHasLandInt");
+		CheckCubeHasLandInt : ll.import("PFAPI", "Lands_CheckCubeHasLandInt"),
 		/** 检查指定坐标(float)是否有领地 返回值类型：Boolean */
-		const CheckPosHasLand = ll.import("PFAPI", "Lands_CheckPosHasLand");
+		CheckPosHasLand : ll.import("PFAPI", "Lands_CheckPosHasLand"),
 		/** 检查指定坐标(int)是否有领地 返回值类型：Boolean */
-		const CheckPosHasLandInt = ll.import("PFAPI", "Lands_CheckPosHasLandInt");
+		CheckPosHasLandInt : ll.import("PFAPI", "Lands_CheckPosHasLandInt"),
 		/** 获取立方体区域(float)领地信息（返回JSON字符串） 返回值类型：String */
-		const GetLandByCube = ll.import("PFAPI", "Lands_GetLandByCube");
+		GetLandByCube : ll.import("PFAPI", "Lands_GetLandByCube"),
 		/** 获取立方体区域(int)领地信息（返回JSON字符串） 返回值类型：String */
-		const GetLandByCubeInt = ll.import("PFAPI", "Lands_GetLandByCubeInt");
+		GetLandByCubeInt : ll.import("PFAPI", "Lands_GetLandByCubeInt"),
 		/** 获取指定坐标(float)领地信息（返回JSON字符串） 返回值类型：String */
-		const GetLandByPos = ll.import("PFAPI", "Lands_GetLandByPos");
+		GetLandByPos : ll.import("PFAPI", "Lands_GetLandByPos"),
 		/** 获取指定坐标(int)领地信息（返回JSON字符串） 返回值类型：String */
-		const GetLandByPosInt = ll.import("PFAPI", "Lands_GetLandByPosInt");
+		GetLandByPosInt : ll.import("PFAPI", "Lands_GetLandByPosInt"),
 		/** 获取立方体区域(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
-		const GetLandInfoByCube = ll.import("PFAPI", "Lands_GetLandInfoByCube");
+		GetLandInfoByCube : ll.import("PFAPI", "Lands_GetLandInfoByCube"),
 		/** 获取立方体区域(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
-		const GetLandInfoByCubeInt = ll.import("PFAPI", "Lands_GetLandInfoByCubeInt");
+		GetLandInfoByCubeInt : ll.import("PFAPI", "Lands_GetLandInfoByCubeInt"),
 		/** 获取指定坐标(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
-		const GetLandInfoByPos = ll.import("PFAPI", "Lands_GetLandInfoByPos");
+		GetLandInfoByPos : ll.import("PFAPI", "Lands_GetLandInfoByPos"),
 		/** 获取指定坐标(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
-		const GetLandInfoByPosInt = ll.import("PFAPI", "Lands_GetLandInfoByPosInt");
+		GetLandInfoByPosInt : ll.import("PFAPI", "Lands_GetLandInfoByPosInt"),
 		/** 设置指定立方体区域(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
-		const SetLandInfoByCube = ll.import("PFAPI", "Lands_SetLandInfoByCube");
+		SetLandInfoByCube : ll.import("PFAPI", "Lands_SetLandInfoByCube"),
 		/** 设置指定立方体区域(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
-		const SetLandInfoByCubeInt = ll.import("PFAPI", "Lands_SetLandInfoByCubeInt");
+		SetLandInfoByCubeInt : ll.import("PFAPI", "Lands_SetLandInfoByCubeInt"),
 		/** 设置指定坐标(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
-		const SetLandInfoByPos = ll.import("PFAPI", "Lands_SetLandInfoByPos");
+		SetLandInfoByPos : ll.import("PFAPI", "Lands_SetLandInfoByPos"),
 		/** 设置或修改指定坐标(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
-		const SetLandInfoByPosInt = ll.import("PFAPI", "Lands_SetLandInfoByPosInt");
-	}
-	PFAPI : {
+		SetLandInfoByPosInt : ll.import("PFAPI", "Lands_SetLandInfoByPosInt"),
+	},
+	Money : {
 		/** 获取玩家(指定玩家名)金钱 返回值类型：Integer */
-		const Get = ll.import("PFAPI", "Money_Get");
+		Get : ll.import("PFAPI", "Money_Get"),
 		/** 给玩家(指定玩家名)加钱 返回值类型：Boolean */
-		const Add = ll.import("PFAPI", "Money_Add");
+		Add : ll.import("PFAPI", "Money_Add"),
 		/** 给玩家(指定玩家名)减钱 返回值类型：Boolean */
-		const Remove = ll.import("PFAPI", "Money_Remove");
-	}
-}
+		Remove : ll.import("PFAPI", "Money_Remove"),
+	},
+};
 
 ```
 </details>
