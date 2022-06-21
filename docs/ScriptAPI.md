@@ -23,7 +23,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 设置全局配置文件（要求JSON字符串） 返回值类型：Boolean
+>/** 设置全局配置文件（要求JSON字符串） 返回值类型：Boolean */
 >const General_SetConfig = ll.import("PFAPI", "General_SetConfig");
 >let result = General_SetConfig(jsonStr);
 >```
@@ -40,7 +40,7 @@
 >返回值类型：String;
 > - JavaScript
 >```js
->// 获取全局配置文件（JSON字符串） 返回值类型：String
+>/** 获取全局配置文件（JSON字符串） 返回值类型：String */
 >const General_GetConfig = ll.import("PFAPI", "General_GetConfig");
 >let result = General_GetConfig();
 >```
@@ -57,7 +57,7 @@
 >无返回值;
 > - JavaScript
 >```js
->// 重新加载所有功能的配置文件
+>/** 重新加载所有功能的配置文件 */
 >const General_Reload = ll.import("PFAPI", "General_Reload");
 >General_Reload();
 >```
@@ -81,7 +81,7 @@
 >无返回值;
 > - JavaScript
 >```js
->// 设置命令禁用(可设置提示)
+>/** 设置命令禁用(可设置提示) */
 >const Command_SetCommandDisabled = ll.import("PFAPI", "Command_SetCommandDisabled");
 >Command_SetCommandDisabled(playerName,cmd,feedback);
 >```
@@ -101,7 +101,7 @@
 >无返回值;
 > - JavaScript
 >```js
->// 设置命令启用
+>/** 设置命令启用 */
 >const Command_SetCommandEnabled = ll.import("PFAPI", "Command_SetCommandEnabled");
 >Command_SetCommandEnabled(playerName,cmd);
 >```
@@ -125,7 +125,7 @@
 >返回值类型：String;
 > - JavaScript
 >```js
->// 翻译 返回值类型：String
+>/** 翻译 返回值类型：String */
 >const Language_Translate = ll.import("PFAPI", "Language_Translate");
 >let result = Language_Translate(fromLanguage,toLanguage,text);
 >```
@@ -148,7 +148,7 @@
 >无返回值;
 > - JavaScript
 >```js
->// 设置玩家昵称
+>/** 设置玩家昵称 */
 >const ChatEx_SetNickName = ll.import("PFAPI", "ChatEx_SetNickName");
 >ChatEx_SetNickName(name,nickName);
 >```
@@ -168,7 +168,7 @@
 >无返回值;
 > - JavaScript
 >```js
->// 设置玩家聊天时的名字
+>/** 设置玩家聊天时的名字 */
 >const ChatEx_SetFakeName = ll.import("PFAPI", "ChatEx_SetFakeName");
 >ChatEx_SetFakeName(name,fakeName);
 >```
@@ -188,7 +188,7 @@
 >无返回值;
 > - JavaScript
 >```js
->// 设置玩家聊天消息后缀
+>/** 设置玩家聊天消息后缀 */
 >const ChatEx_SetEnd = ll.import("PFAPI", "ChatEx_SetEnd");
 >ChatEx_SetEnd(name,endStr);
 >```
@@ -208,7 +208,7 @@
 >无返回值;
 > - JavaScript
 >```js
->// 设置玩家聊天消息前缀
+>/** 设置玩家聊天消息前缀 */
 >const ChatEx_SetStart = ll.import("PFAPI", "ChatEx_SetStart");
 >ChatEx_SetStart(name,startStr);
 >```
@@ -236,7 +236,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 检查指定立方体区域(float)是否有领地 返回值类型：Boolean
+>/** 检查指定立方体区域(float)是否有领地 返回值类型：Boolean */
 >const Lands_CheckCubeHasLand = ll.import("PFAPI", "Lands_CheckCubeHasLand");
 >let result = Lands_CheckCubeHasLand(x1,y1,z1,x2,y2,z2,dimensionId);
 >```
@@ -261,7 +261,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 检查指定立方体区域(int)是否有领地 返回值类型：Boolean
+>/** 检查指定立方体区域(int)是否有领地 返回值类型：Boolean */
 >const Lands_CheckCubeHasLandInt = ll.import("PFAPI", "Lands_CheckCubeHasLandInt");
 >let result = Lands_CheckCubeHasLandInt(x1,y1,z1,x2,y2,z2,dimensionId);
 >```
@@ -283,7 +283,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 检查指定坐标(float)是否有领地 返回值类型：Boolean
+>/** 检查指定坐标(float)是否有领地 返回值类型：Boolean */
 >const Lands_CheckPosHasLand = ll.import("PFAPI", "Lands_CheckPosHasLand");
 >let result = Lands_CheckPosHasLand(x,y,z,dimensionId);
 >```
@@ -305,7 +305,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 检查指定坐标(int)是否有领地 返回值类型：Boolean
+>/** 检查指定坐标(int)是否有领地 返回值类型：Boolean */
 >const Lands_CheckPosHasLandInt = ll.import("PFAPI", "Lands_CheckPosHasLandInt");
 >let result = Lands_CheckPosHasLandInt(x,y,z,dimensionId);
 >```
@@ -330,7 +330,7 @@
 >返回值类型：String;
 > - JavaScript
 >```js
->// 获取立方体区域(float)领地信息（返回JSON字符串） 返回值类型：String
+>/** 获取立方体区域(float)领地信息（返回JSON字符串） 返回值类型：String */
 >const Lands_GetLandByCube = ll.import("PFAPI", "Lands_GetLandByCube");
 >let result = Lands_GetLandByCube(x1,y1,z1,x2,y2,z2,dimensionId);
 >```
@@ -355,7 +355,7 @@
 >返回值类型：String;
 > - JavaScript
 >```js
->// 获取立方体区域(int)领地信息（返回JSON字符串） 返回值类型：String
+>/** 获取立方体区域(int)领地信息（返回JSON字符串） 返回值类型：String */
 >const Lands_GetLandByCubeInt = ll.import("PFAPI", "Lands_GetLandByCubeInt");
 >let result = Lands_GetLandByCubeInt(x1,y1,z1,x2,y2,z2,dimensionId);
 >```
@@ -377,7 +377,7 @@
 >返回值类型：String;
 > - JavaScript
 >```js
->// 获取指定坐标(float)领地信息（返回JSON字符串） 返回值类型：String
+>/** 获取指定坐标(float)领地信息（返回JSON字符串） 返回值类型：String */
 >const Lands_GetLandByPos = ll.import("PFAPI", "Lands_GetLandByPos");
 >let result = Lands_GetLandByPos(x,y,z,dimensionId);
 >```
@@ -399,7 +399,7 @@
 >返回值类型：String;
 > - JavaScript
 >```js
->// 获取指定坐标(int)领地信息（返回JSON字符串） 返回值类型：String
+>/** 获取指定坐标(int)领地信息（返回JSON字符串） 返回值类型：String */
 >const Lands_GetLandByPosInt = ll.import("PFAPI", "Lands_GetLandByPosInt");
 >let result = Lands_GetLandByPosInt(x,y,z,dimensionId);
 >```
@@ -424,7 +424,7 @@
 >返回值类型：String;
 > - JavaScript
 >```js
->// 获取立方体区域(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String
+>/** 获取立方体区域(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
 >const Lands_GetLandInfoByCube = ll.import("PFAPI", "Lands_GetLandInfoByCube");
 >let result = Lands_GetLandInfoByCube(x1,y1,z1,x2,y2,z2,dimensionId);
 >```
@@ -449,7 +449,7 @@
 >返回值类型：String;
 > - JavaScript
 >```js
->// 获取立方体区域(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String
+>/** 获取立方体区域(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
 >const Lands_GetLandInfoByCubeInt = ll.import("PFAPI", "Lands_GetLandInfoByCubeInt");
 >let result = Lands_GetLandInfoByCubeInt(x1,y1,z1,x2,y2,z2,dimensionId);
 >```
@@ -471,7 +471,7 @@
 >返回值类型：String;
 > - JavaScript
 >```js
->// 获取指定坐标(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String
+>/** 获取指定坐标(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
 >const Lands_GetLandInfoByPos = ll.import("PFAPI", "Lands_GetLandInfoByPos");
 >let result = Lands_GetLandInfoByPos(x,y,z,dimensionId);
 >```
@@ -493,7 +493,7 @@
 >返回值类型：String;
 > - JavaScript
 >```js
->// 获取指定坐标(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String
+>/** 获取指定坐标(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
 >const Lands_GetLandInfoByPosInt = ll.import("PFAPI", "Lands_GetLandInfoByPosInt");
 >let result = Lands_GetLandInfoByPosInt(x,y,z,dimensionId);
 >```
@@ -519,7 +519,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 设置指定立方体区域(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean
+>/** 设置指定立方体区域(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
 >const Lands_SetLandInfoByCube = ll.import("PFAPI", "Lands_SetLandInfoByCube");
 >let result = Lands_SetLandInfoByCube(x1,y1,z1,x2,y2,z2,dimensionId,landinfo);
 >```
@@ -545,7 +545,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 设置指定立方体区域(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean
+>/** 设置指定立方体区域(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
 >const Lands_SetLandInfoByCubeInt = ll.import("PFAPI", "Lands_SetLandInfoByCubeInt");
 >let result = Lands_SetLandInfoByCubeInt(x1,y1,z1,x2,y2,z2,dimensionId,landinfo);
 >```
@@ -568,7 +568,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 设置指定坐标(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean
+>/** 设置指定坐标(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
 >const Lands_SetLandInfoByPos = ll.import("PFAPI", "Lands_SetLandInfoByPos");
 >let result = Lands_SetLandInfoByPos(x,y,z,dimensionId,landinfo);
 >```
@@ -591,7 +591,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 设置或修改指定坐标(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean
+>/** 设置或修改指定坐标(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
 >const Lands_SetLandInfoByPosInt = ll.import("PFAPI", "Lands_SetLandInfoByPosInt");
 >let result = Lands_SetLandInfoByPosInt(x,y,z,dimensionId,landinfo);
 >```
@@ -613,7 +613,7 @@
 >返回值类型：Integer;
 > - JavaScript
 >```js
->// 获取玩家(指定玩家名)金钱 返回值类型：Integer
+>/** 获取玩家(指定玩家名)金钱 返回值类型：Integer */
 >const Money_Get = ll.import("PFAPI", "Money_Get");
 >let result = Money_Get(name);
 >```
@@ -633,7 +633,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 给玩家(指定玩家名)加钱 返回值类型：Boolean
+>/** 给玩家(指定玩家名)加钱 返回值类型：Boolean */
 >const Money_Add = ll.import("PFAPI", "Money_Add");
 >let result = Money_Add(name,val);
 >```
@@ -653,7 +653,7 @@
 >返回值类型：Boolean;
 > - JavaScript
 >```js
->// 给玩家(指定玩家名)减钱 返回值类型：Boolean
+>/** 给玩家(指定玩家名)减钱 返回值类型：Boolean */
 >const Money_Remove = ll.import("PFAPI", "Money_Remove");
 >let result = Money_Remove(name,val);
 >```
@@ -665,68 +665,149 @@
 >```
 </details>
 <details><summary><b>All Api in JavaScript<b></summary>
+<details><summary>JavaScript imports</summary>
 
 ``` JavaScript
-// 设置全局配置文件（要求JSON字符串） 返回值类型：Boolean
+/** 设置全局配置文件（要求JSON字符串） 返回值类型：Boolean */
 const General_SetConfig = ll.import("PFAPI", "General_SetConfig");
-// 获取全局配置文件（JSON字符串） 返回值类型：String
+/** 获取全局配置文件（JSON字符串） 返回值类型：String */
 const General_GetConfig = ll.import("PFAPI", "General_GetConfig");
-// 重新加载所有功能的配置文件
+/** 重新加载所有功能的配置文件 */
 const General_Reload = ll.import("PFAPI", "General_Reload");
-// 设置命令禁用(可设置提示)
+/** 设置命令禁用(可设置提示) */
 const Command_SetCommandDisabled = ll.import("PFAPI", "Command_SetCommandDisabled");
-// 设置命令启用
+/** 设置命令启用 */
 const Command_SetCommandEnabled = ll.import("PFAPI", "Command_SetCommandEnabled");
-// 翻译 返回值类型：String
+/** 翻译 返回值类型：String */
 const Language_Translate = ll.import("PFAPI", "Language_Translate");
-// 设置玩家昵称
+/** 设置玩家昵称 */
 const ChatEx_SetNickName = ll.import("PFAPI", "ChatEx_SetNickName");
-// 设置玩家聊天时的名字
+/** 设置玩家聊天时的名字 */
 const ChatEx_SetFakeName = ll.import("PFAPI", "ChatEx_SetFakeName");
-// 设置玩家聊天消息后缀
+/** 设置玩家聊天消息后缀 */
 const ChatEx_SetEnd = ll.import("PFAPI", "ChatEx_SetEnd");
-// 设置玩家聊天消息前缀
+/** 设置玩家聊天消息前缀 */
 const ChatEx_SetStart = ll.import("PFAPI", "ChatEx_SetStart");
-// 检查指定立方体区域(float)是否有领地 返回值类型：Boolean
+/** 检查指定立方体区域(float)是否有领地 返回值类型：Boolean */
 const Lands_CheckCubeHasLand = ll.import("PFAPI", "Lands_CheckCubeHasLand");
-// 检查指定立方体区域(int)是否有领地 返回值类型：Boolean
+/** 检查指定立方体区域(int)是否有领地 返回值类型：Boolean */
 const Lands_CheckCubeHasLandInt = ll.import("PFAPI", "Lands_CheckCubeHasLandInt");
-// 检查指定坐标(float)是否有领地 返回值类型：Boolean
+/** 检查指定坐标(float)是否有领地 返回值类型：Boolean */
 const Lands_CheckPosHasLand = ll.import("PFAPI", "Lands_CheckPosHasLand");
-// 检查指定坐标(int)是否有领地 返回值类型：Boolean
+/** 检查指定坐标(int)是否有领地 返回值类型：Boolean */
 const Lands_CheckPosHasLandInt = ll.import("PFAPI", "Lands_CheckPosHasLandInt");
-// 获取立方体区域(float)领地信息（返回JSON字符串） 返回值类型：String
+/** 获取立方体区域(float)领地信息（返回JSON字符串） 返回值类型：String */
 const Lands_GetLandByCube = ll.import("PFAPI", "Lands_GetLandByCube");
-// 获取立方体区域(int)领地信息（返回JSON字符串） 返回值类型：String
+/** 获取立方体区域(int)领地信息（返回JSON字符串） 返回值类型：String */
 const Lands_GetLandByCubeInt = ll.import("PFAPI", "Lands_GetLandByCubeInt");
-// 获取指定坐标(float)领地信息（返回JSON字符串） 返回值类型：String
+/** 获取指定坐标(float)领地信息（返回JSON字符串） 返回值类型：String */
 const Lands_GetLandByPos = ll.import("PFAPI", "Lands_GetLandByPos");
-// 获取指定坐标(int)领地信息（返回JSON字符串） 返回值类型：String
+/** 获取指定坐标(int)领地信息（返回JSON字符串） 返回值类型：String */
 const Lands_GetLandByPosInt = ll.import("PFAPI", "Lands_GetLandByPosInt");
-// 获取立方体区域(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String
+/** 获取立方体区域(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
 const Lands_GetLandInfoByCube = ll.import("PFAPI", "Lands_GetLandInfoByCube");
-// 获取立方体区域(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String
+/** 获取立方体区域(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
 const Lands_GetLandInfoByCubeInt = ll.import("PFAPI", "Lands_GetLandInfoByCubeInt");
-// 获取指定坐标(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String
+/** 获取指定坐标(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
 const Lands_GetLandInfoByPos = ll.import("PFAPI", "Lands_GetLandInfoByPos");
-// 获取指定坐标(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String
+/** 获取指定坐标(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
 const Lands_GetLandInfoByPosInt = ll.import("PFAPI", "Lands_GetLandInfoByPosInt");
-// 设置指定立方体区域(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean
+/** 设置指定立方体区域(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
 const Lands_SetLandInfoByCube = ll.import("PFAPI", "Lands_SetLandInfoByCube");
-// 设置指定立方体区域(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean
+/** 设置指定立方体区域(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
 const Lands_SetLandInfoByCubeInt = ll.import("PFAPI", "Lands_SetLandInfoByCubeInt");
-// 设置指定坐标(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean
+/** 设置指定坐标(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
 const Lands_SetLandInfoByPos = ll.import("PFAPI", "Lands_SetLandInfoByPos");
-// 设置或修改指定坐标(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean
+/** 设置或修改指定坐标(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
 const Lands_SetLandInfoByPosInt = ll.import("PFAPI", "Lands_SetLandInfoByPosInt");
-// 获取玩家(指定玩家名)金钱 返回值类型：Integer
+/** 获取玩家(指定玩家名)金钱 返回值类型：Integer */
 const Money_Get = ll.import("PFAPI", "Money_Get");
-// 给玩家(指定玩家名)加钱 返回值类型：Boolean
+/** 给玩家(指定玩家名)加钱 返回值类型：Boolean */
 const Money_Add = ll.import("PFAPI", "Money_Add");
-// 给玩家(指定玩家名)减钱 返回值类型：Boolean
+/** 给玩家(指定玩家名)减钱 返回值类型：Boolean */
 const Money_Remove = ll.import("PFAPI", "Money_Remove");
 
 ```
+</details>
+
+<details><summary>JavaScript object</summary>
+
+``` JavaScript
+const PFAPI = {
+	PFAPI : {
+		/** 设置全局配置文件（要求JSON字符串） 返回值类型：Boolean */
+		const SetConfig = ll.import("PFAPI", "General_SetConfig");
+		/** 获取全局配置文件（JSON字符串） 返回值类型：String */
+		const GetConfig = ll.import("PFAPI", "General_GetConfig");
+		/** 重新加载所有功能的配置文件 */
+		const Reload = ll.import("PFAPI", "General_Reload");
+	}
+	PFAPI : {
+		/** 设置命令禁用(可设置提示) */
+		const SetCommandDisabled = ll.import("PFAPI", "Command_SetCommandDisabled");
+		/** 设置命令启用 */
+		const SetCommandEnabled = ll.import("PFAPI", "Command_SetCommandEnabled");
+	}
+	PFAPI : {
+		/** 翻译 返回值类型：String */
+		const Translate = ll.import("PFAPI", "Language_Translate");
+	}
+	PFAPI : {
+		/** 设置玩家昵称 */
+		const SetNickName = ll.import("PFAPI", "ChatEx_SetNickName");
+		/** 设置玩家聊天时的名字 */
+		const SetFakeName = ll.import("PFAPI", "ChatEx_SetFakeName");
+		/** 设置玩家聊天消息后缀 */
+		const SetEnd = ll.import("PFAPI", "ChatEx_SetEnd");
+		/** 设置玩家聊天消息前缀 */
+		const SetStart = ll.import("PFAPI", "ChatEx_SetStart");
+	}
+	PFAPI : {
+		/** 检查指定立方体区域(float)是否有领地 返回值类型：Boolean */
+		const CheckCubeHasLand = ll.import("PFAPI", "Lands_CheckCubeHasLand");
+		/** 检查指定立方体区域(int)是否有领地 返回值类型：Boolean */
+		const CheckCubeHasLandInt = ll.import("PFAPI", "Lands_CheckCubeHasLandInt");
+		/** 检查指定坐标(float)是否有领地 返回值类型：Boolean */
+		const CheckPosHasLand = ll.import("PFAPI", "Lands_CheckPosHasLand");
+		/** 检查指定坐标(int)是否有领地 返回值类型：Boolean */
+		const CheckPosHasLandInt = ll.import("PFAPI", "Lands_CheckPosHasLandInt");
+		/** 获取立方体区域(float)领地信息（返回JSON字符串） 返回值类型：String */
+		const GetLandByCube = ll.import("PFAPI", "Lands_GetLandByCube");
+		/** 获取立方体区域(int)领地信息（返回JSON字符串） 返回值类型：String */
+		const GetLandByCubeInt = ll.import("PFAPI", "Lands_GetLandByCubeInt");
+		/** 获取指定坐标(float)领地信息（返回JSON字符串） 返回值类型：String */
+		const GetLandByPos = ll.import("PFAPI", "Lands_GetLandByPos");
+		/** 获取指定坐标(int)领地信息（返回JSON字符串） 返回值类型：String */
+		const GetLandByPosInt = ll.import("PFAPI", "Lands_GetLandByPosInt");
+		/** 获取立方体区域(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
+		const GetLandInfoByCube = ll.import("PFAPI", "Lands_GetLandInfoByCube");
+		/** 获取立方体区域(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
+		const GetLandInfoByCubeInt = ll.import("PFAPI", "Lands_GetLandInfoByCubeInt");
+		/** 获取指定坐标(float)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
+		const GetLandInfoByPos = ll.import("PFAPI", "Lands_GetLandInfoByPos");
+		/** 获取指定坐标(int)领地数据源详细信息（返回JSON字符串） 返回值类型：String */
+		const GetLandInfoByPosInt = ll.import("PFAPI", "Lands_GetLandInfoByPosInt");
+		/** 设置指定立方体区域(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
+		const SetLandInfoByCube = ll.import("PFAPI", "Lands_SetLandInfoByCube");
+		/** 设置指定立方体区域(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
+		const SetLandInfoByCubeInt = ll.import("PFAPI", "Lands_SetLandInfoByCubeInt");
+		/** 设置指定坐标(float)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
+		const SetLandInfoByPos = ll.import("PFAPI", "Lands_SetLandInfoByPos");
+		/** 设置或修改指定坐标(int)领地数据源详细信息（传入JSON字符串） 返回值类型：Boolean */
+		const SetLandInfoByPosInt = ll.import("PFAPI", "Lands_SetLandInfoByPosInt");
+	}
+	PFAPI : {
+		/** 获取玩家(指定玩家名)金钱 返回值类型：Integer */
+		const Get = ll.import("PFAPI", "Money_Get");
+		/** 给玩家(指定玩家名)加钱 返回值类型：Boolean */
+		const Add = ll.import("PFAPI", "Money_Add");
+		/** 给玩家(指定玩家名)减钱 返回值类型：Boolean */
+		const Remove = ll.import("PFAPI", "Money_Remove");
+	}
+}
+
+```
+</details>
 </details>
 <details>
 <summary><b>All Api in C++<b></summary>
