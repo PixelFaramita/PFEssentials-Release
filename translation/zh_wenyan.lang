@@ -964,3 +964,5 @@ General.Info.info6LL2=BDS服务端版本:{0}
 General.Info.info6LL3=服务端网络协议版本:{0}
 Lands.Common.Tips.Permissions.FireworksExplodeTip={0}地({1})一止烟花爆
 Lands.Common.Tips.Permissions.NoPermOnHitLightning=无权在{0}之地({1})发引雷效
+Home.Operation.InLand=在今地无权加Home
+Lands.Common.Tips.Permissions.SetHome=置Home
