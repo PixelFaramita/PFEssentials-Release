@@ -964,3 +964,5 @@ General.Info.info6LL2=BDS 서버 버전 : {0}
 General.Info.info6LL3=서비스 네트워크 프로토콜 버전 : {0}
 Lands.Common.Tips.Permissions.FireworksExplodeTip={0}({1})의 영토에서 불꽃 놀이를 막았습니다.
 Lands.Common.Tips.Permissions.NoPermOnHitLightning={0}({1})의 영토에서 천둥 효과를 유발할 권리가 없습니다.
+Home.Operation.InLand=권위가없는 현재 영토에 집을 추가하십시오
+Lands.Common.Tips.Permissions.SetHome=집으로 설정하십시오

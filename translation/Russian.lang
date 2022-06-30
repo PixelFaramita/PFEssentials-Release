@@ -965,3 +965,5 @@ General.Info.info6LL2=Версия сервера BDS: {0}
 General.Info.info6LL3=Сервисный сетевой протокол версии: {0}
 Lands.Common.Tips.Permissions.NoPermOnHitLightning=Нельзя пизвать молнию на территории {0} ({1})
 Lands.Common.Tips.Permissions.FireworksExplodeTip=На территории {0} ({1}) запрещено использовать фейерверки
+Home.Operation.InLand=Добавить дом на текущую территорию без власти
+Lands.Common.Tips.Permissions.SetHome=Установите домой

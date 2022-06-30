@@ -970,3 +970,5 @@ General.Info.info6LL2=Версія сервера BDS: {0}
 General.Info.info6LL3=Сервісний мережевий протокол версії: {0}
 Lands.Common.Tips.Permissions.NoPermOnHitLightning=Заборонено викликати блискавку на території {0} ({1})
 Lands.Common.Tips.Permissions.FireworksExplodeTip=Заборонено використовувати фейерверки на території {0} ({1})
+Home.Operation.InLand=Додайте додому на нинішню територію без повноважень
+Lands.Common.Tips.Permissions.SetHome=Встановити додому
