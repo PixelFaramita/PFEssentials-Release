@@ -966,3 +966,5 @@ Lands.Common.Tips.Permissions.FireworksExplodeTip=在{0}的领地({1})阻止了�
 Lands.Common.Tips.Permissions.NoPermOnHitLightning=无权限在{0}的领地({1})触发引雷效果
 Home.Operation.InLand=在当前领地无权限添加Home
 Lands.Common.Tips.Permissions.SetHome=设置Home
+Lands.Common.Tips.Permissions.SculkSpreadTip={0}的领地({1})禁止潜声催化扩散
+Lands.Common.Tips.Permissions.SculkSpread=潜声催化扩散拦截

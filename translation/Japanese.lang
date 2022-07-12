@@ -966,3 +966,5 @@ Lands.Common.Tips.Permissions.FireworksExplodeTip={0}の領土（{1}）は花火
 Lands.Common.Tips.Permissions.NoPermOnHitLightning={0}（{1}）に雷効果をトリガーする権利はありません
 Home.Operation.InLand=権限のない現在の領土に家を追加します
 Lands.Common.Tips.Permissions.SetHome=家に帰る
+Lands.Common.Tips.Permissions.SculkSpreadTip={0}の領土({1})は、潜音の触媒拡散を禁止します
+Lands.Common.Tips.Permissions.SculkSpread=潜音触媒拡散遮断

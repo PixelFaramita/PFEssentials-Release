@@ -967,3 +967,5 @@ Lands.Common.Tips.Permissions.NoPermOnHitLightning=Нельзя пизвать �
 Lands.Common.Tips.Permissions.FireworksExplodeTip=На территории {0} ({1}) запрещено использовать фейерверки
 Home.Operation.InLand=Добавить дом на текущую территорию без власти
 Lands.Common.Tips.Permissions.SetHome=Установите домой
+Lands.Common.Tips.Permissions.SculkSpreadTip={0}территория ({1}) запрещает латентную каталитическую диффузию
+Lands.Common.Tips.Permissions.SculkSpread=Перехват диффузии, катализируемый подтекстом

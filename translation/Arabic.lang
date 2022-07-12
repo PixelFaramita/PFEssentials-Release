@@ -966,3 +966,5 @@ Lands.Common.Tips.Permissions.FireworksExplodeTip=في إقليم {0}({1}) من�
 Lands.Common.Tips.Permissions.NoPermOnHitLightning=لا يوجد حق في الزناد تأثير الرعد في إقليم {0}({1})
 Home.Operation.InLand=أضف المنزل في المنطقة الحالية بدون سلطة
 Lands.Common.Tips.Permissions.SetHome=وضع المنزل
+Lands.Common.Tips.Permissions.SculkSpreadTip=إقليم {0}({1}) يحظر الانتشار الحفاز الكامن
+Lands.Common.Tips.Permissions.SculkSpread=النص الفرعي حفز اعتراض الانتشار

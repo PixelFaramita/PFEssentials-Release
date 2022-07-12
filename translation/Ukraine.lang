@@ -972,3 +972,5 @@ Lands.Common.Tips.Permissions.NoPermOnHitLightning=Заборонено викл
 Lands.Common.Tips.Permissions.FireworksExplodeTip=Заборонено використовувати фейерверки на території {0} ({1})
 Home.Operation.InLand=Додайте додому на нинішню територію без повноважень
 Lands.Common.Tips.Permissions.SetHome=Встановити додому
+Lands.Common.Tips.Permissions.SculkSpreadTip={0}території ({1}) забороняє латентну каталітичну дифузію
+Lands.Common.Tips.Permissions.SculkSpread=潜声催化扩散拦截

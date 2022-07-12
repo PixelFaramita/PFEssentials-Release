@@ -966,3 +966,5 @@ Lands.Common.Tips.Permissions.FireworksExplodeTip={0}({1})의 영토에서 불�
 Lands.Common.Tips.Permissions.NoPermOnHitLightning={0}({1})의 영토에서 천둥 효과를 유발할 권리가 없습니다.
 Home.Operation.InLand=권위가없는 현재 영토에 집을 추가하십시오
 Lands.Common.Tips.Permissions.SetHome=집으로 설정하십시오
+Lands.Common.Tips.Permissions.SculkSpreadTip={0}영토({1})는 잠음 촉매 확산을 금지합니다
+Lands.Common.Tips.Permissions.SculkSpread=잠음 촉매 확산 차단
