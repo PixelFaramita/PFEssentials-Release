@@ -967,3 +967,4 @@ Home.Operation.InLand=Add HOME in the current territory without authority
 Lands.Common.Tips.Permissions.SetHome=Set home
 Lands.Common.Tips.Permissions.SculkSpreadTip={0}territory ({1}) prohibits latent catalytic diffusion
 Lands.Common.Tips.Permissions.SculkSpread=Subtext catalyzed diffusion interception
+Lands.Common.Tips.Permissions.WitherBossPerformAttackTip={0}territory ({1}) Prohibits attacking mobs (wither attack)

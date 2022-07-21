@@ -969,3 +969,4 @@ Home.Operation.InLand=Добавить дом на текущую террито
 Lands.Common.Tips.Permissions.SetHome=Установите домой
 Lands.Common.Tips.Permissions.SculkSpreadTip={0}территория ({1}) запрещает латентную каталитическую диффузию
 Lands.Common.Tips.Permissions.SculkSpread=Перехват диффузии, катализируемый подтекстом
+Lands.Common.Tips.Permissions.WitherBossPerformAttackTip={0}территория ({1}) Запрещает нападение на толпу (атака увядания)

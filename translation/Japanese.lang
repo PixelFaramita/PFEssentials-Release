@@ -968,3 +968,4 @@ Home.Operation.InLand=権限のない現在の領土に家を追加します
 Lands.Common.Tips.Permissions.SetHome=家に帰る
 Lands.Common.Tips.Permissions.SculkSpreadTip={0}の領土({1})は、潜音の触媒拡散を禁止します
 Lands.Common.Tips.Permissions.SculkSpread=潜音触媒拡散遮断
+Lands.Common.Tips.Permissions.WitherBossPerformAttackTip={0}の領土({1})は、クリーチャーへの攻撃を禁止します(アポトーシス攻撃)
