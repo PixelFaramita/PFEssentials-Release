@@ -969,3 +969,4 @@ Lands.Common.Tips.Permissions.SetHome=設置Home
 Lands.Common.Tips.Permissions.SculkSpreadTip={0}的領地（{1}）禁止潛聲催化擴散
 Lands.Common.Tips.Permissions.SculkSpread=潛聲催化擴散攔截
 Lands.Common.Tips.Permissions.WitherBossPerformAttackTip={0}的領地（{1}）禁止攻擊生物（凋零發起攻擊）
+Back.Common.InCooldown=當前為Back請求冷卻時間，請{0}秒后再次嘗試

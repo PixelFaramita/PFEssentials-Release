@@ -975,3 +975,4 @@ Lands.Common.Tips.Permissions.SetHome=Встановити додому
 Lands.Common.Tips.Permissions.SculkSpreadTip={0}території ({1}) забороняє латентну каталітичну дифузію
 Lands.Common.Tips.Permissions.SculkSpread=潜声催化扩散拦截
 Lands.Common.Tips.Permissions.WitherBossPerformAttackTip={0}території ({1}) Забороняється нападати на погромників (напад на в'янення)
+Back.Common.InCooldown=当前为Back请求冷却时间，请{0}秒后再次尝试

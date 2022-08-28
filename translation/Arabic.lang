@@ -969,3 +969,4 @@ Lands.Common.Tips.Permissions.SetHome=وضع المنزل
 Lands.Common.Tips.Permissions.SculkSpreadTip=إقليم {0}({1}) يحظر الانتشار الحفاز الكامن
 Lands.Common.Tips.Permissions.SculkSpread=النص الفرعي حفز اعتراض الانتشار
 Lands.Common.Tips.Permissions.WitherBossPerformAttackTip=إقليم {0}({1}) يحظر مهاجمة الغوغاء (هجوم الذبول)
+Back.Common.InCooldown=حاليا طلب تبريد مرة أخرى ، يرجى المحاولة مرة أخرى بعد {0}ثانية
